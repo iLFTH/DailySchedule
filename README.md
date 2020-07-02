@@ -1,5 +1,9 @@
 # DailySchedule
 
+# repos
+> step 0 
+[os tutorial summer of code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
+
 ## **TOC**
 
 
