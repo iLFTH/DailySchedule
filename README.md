@@ -1,12 +1,13 @@
-# DailySchedule
+# Daily Schedule/Summary
 
-# repos
-> step 0 
-[os tutorial summer of code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
+## Links
++ step 0  [os tutorial summer of code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
 
-<span id="TOC"></span>
-## **TOC**
+
+<span id="TOC"></span>  
+
+## TOC
 
 
 
@@ -20,30 +21,20 @@
 | 20  | 21 | 22 | 23 | 24 | 25 | 26 |
 | 27  | 28 | 29 | 30 | 31 |                        |                        |
 
+## Blogs
+> It is used to describe some learning details
 
 
-<!-- *四月*
-
-| Mon       | Tues      | Wed       | Thur      | Fri       | Sat       | Sun       |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|           |           | 1         | 2         | 3         | 4         | 5         |
-| 6         | 7         | 8         | [9](#0)   | [10](#1)  | [11](#2)  | [12](#3)  |
-| [13](#4)  | [14](#5)  | [15](#6)  | [16](#7)  | [17](#8)  | [18](#9)  | [19](#10) |
-| [20](#11) | [21](#12) | [22](#13) | [23](#14) | [24](#15) | [25](#16) | [26](#17) |
-| [27](#18) | [28](#19) | [29](#2)  | [30](#21) |           |           |           | -->
-
-
-
-
+## Daily Summary
 
 <span id="0"></span>
-## [↑](#TOC)Day 0 
+### [↑](#TOC)Day 0 
 学习办公环境整理，
 建立此repo
 
 
 <span id="1"></span>
-## [↑](#TOC)Day 1
+### [↑](#TOC)Day 1
 #### 1. rust编程语言环境配置
 参考阅读《Rust 程序设计语言》简体中文版，在linux/macos上安装rustup  
 latest update on 2020-06-18, rust version 1.44.1  
@@ -55,3 +46,24 @@ latest update on 2020-06-18, rust version 1.44.1
 + 变量/常量/函数名命名规范
 + 函数定义方式（传参/返回值的写法）
 + 函数内定义内：表达式和语句的区别
+
+<span id="1"></span>
+### [↑](#TOC)Day 2
+
+<span id="1"></span>
+### [↑](#TOC)Day 3
+
+<span id="1"></span>
+### [↑](#TOC)Day 4
+
+<span id="1"></span>
+### [↑](#TOC)Day 5
+
+<span id="1"></span>
+### [↑](#TOC)Day 6
+
+<span id="1"></span>
+### [↑](#TOC)Day 7
+
+<span id="1"></span>
+### [↑](#TOC)Day 8
