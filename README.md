@@ -1,10 +1,11 @@
 # Daily Schedule/Summary
 
 ## Links
-+ step 0  [os tutorial summer of code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
++ [OS Tutorial Summer of Code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
++ [Daily Schedule ++](https://github.com/rcore-os/rCore-Tutorial/issues/18)
 
-
++ [HomePage](www.nuanyun.cloud)
 <span id="TOC"></span>  
 
 ## TOC
@@ -48,3 +49,4 @@ latest update on 2020-06-18, rust version 1.44.1
 + 函数定义内：表达式和语句的区别
 + 了解rust的控制流写法
   >同时归纳与C语言写法的一些差异
+
