@@ -4,6 +4,8 @@
 > step 0 
 [os tutorial summer of code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 
+
+<span id="TOC"></span>
 ## **TOC**
 
 
@@ -12,7 +14,7 @@
 
 | Mon                    | Tues                   | Wed                    | Thur                   | Fri                    | Sat                    | Sun                    |
 |------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
-|                        |                        | 1     | 2  | [3](#0)  | 4     | 5     |
+|                        |                        | 1     | 2  | [3](#0)  | [4](#1)     | 5     |
 | 6     | 7     | 8     | 9     | 10    | 11    | 12    |
 | 13    | 14    | 15    | 16    | 17    | 18 | 19 |
 | 20  | 21 | 22 | 23 | 24 | 25 | 26 |
@@ -64,10 +66,13 @@
 
 
 <span id="0"></span>
-## Day 0
+## [↑](#TOC)Day 0 
 学习办公环境整理，
 建立此repo
-## Day 1
+
+
+<span id="1"></span>
+## [↑](#TOC)Day 1
 #### 1. rust编程语言环境配置
 参考阅读《Rust 程序设计语言》简体中文版，在linux/macos上安装rustup  
 latest update on 2020-06-18, rust version 1.44.1  
