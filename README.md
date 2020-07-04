@@ -28,13 +28,13 @@
 ## Daily Summary
 
 <span id="0"></span>
-### [↑](#TOC)Day 0 
+### [↑](#TOC)Day 1 (7.3)
 学习办公环境整理，
 建立此repo
 
 
 <span id="1"></span>
-### [↑](#TOC)Day 1
+### [↑](#TOC)Day 2 (7.4)
 #### 1. rust编程语言环境配置
 参考阅读《Rust 程序设计语言》简体中文版，在linux/macos上安装rustup  
 latest update on 2020-06-18, rust version 1.44.1  
@@ -45,25 +45,6 @@ latest update on 2020-06-18, rust version 1.44.1
   > rust术语：Rust panic 它用于程序因错误而退出的情况。
 + 变量/常量/函数名命名规范
 + 函数定义方式（传参/返回值的写法）
-+ 函数内定义内：表达式和语句的区别
-
-<span id="1"></span>
-### [↑](#TOC)Day 2
-
-<span id="1"></span>
-### [↑](#TOC)Day 3
-
-<span id="1"></span>
-### [↑](#TOC)Day 4
-
-<span id="1"></span>
-### [↑](#TOC)Day 5
-
-<span id="1"></span>
-### [↑](#TOC)Day 6
-
-<span id="1"></span>
-### [↑](#TOC)Day 7
-
-<span id="1"></span>
-### [↑](#TOC)Day 8
++ 函数定义内：表达式和语句的区别
++ 了解rust的控制流写法
+  >同时归纳与C语言写法的一些差异
