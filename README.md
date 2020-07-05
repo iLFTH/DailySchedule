@@ -70,7 +70,8 @@ latest update on 2020-06-18, rust version 1.44.1
 
 ---
 <span id="3"></span>
-### [↑](#TOC)Day 3 (7.5)  
+### [↑](#TOC)Day 3 (7.5)    
+
 #### 1. 阅读《通过例子学 Rust》
 + [文档注释方法](https://rustwiki.org/zh-CN/rust-by-example/meta/doc.html)
 + 格式化输出
@@ -94,15 +95,10 @@ latest update on 2020-06-18, rust version 1.44.1
         ```
 + 了解了函数 方法(method),同时类比了C++的类(Class)
 + 了解了函数 闭包(closure)和捕获（capture）  
-    ```rust
-    let color = "green";  
-    let print = || println!("`color`: {}", color);  
-    print();  
-    //调用闭包，闭包又借用 `color`。
-    print();  
-    ```
 + [章节后小练习](RUST/Toy_Srcs/)
-#### 2. 参考之前的个人实验笔记，在linux中重新安装QEMU
+#### 2. Rust教程
++ https://www.yiibai.com/rust/ ： Rust智能指针学习
+#### 3. 参考之前的个人实验笔记，在linux中重新安装QEMU
 Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 可为后续实验做准备
 
