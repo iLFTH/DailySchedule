@@ -94,13 +94,13 @@ latest update on 2020-06-18, rust version 1.44.1
         // String基于堆创建，是可增长的字符串。
         ```
 + 了解了函数 方法(method),同时类比了C++的类(Class)
-+ 了解了函数 闭包(closure)和捕获（capture）  
++ 了解了函数 [闭包(closure)和捕获（capture）](https://rustwiki.org/zh-CN/rust-by-example/fn/closures/capture.html)  
 + [章节后小练习](RUST/Toy_Srcs/)
 #### 2. Rust教程
-+ https://www.yiibai.com/rust/ ： Rust智能指针学习
++ https://www.yiibai.com/rust/rust-smart-pointers.html ： Rust智能指针学习
 #### 3. 参考之前的个人实验笔记，在linux中重新安装QEMU
 Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
-可为后续实验做准备
+应当可为后续实验做准备
 
 
 
@@ -109,15 +109,32 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 
 ---
 <span id="4"></span>
-### [↑](#TOC)Day 4 (7.6)  
+### [↑](#TOC)Day 4 (7.6)    
 
-
-
+#### todo: 
++ 类型系统和所有权
++ 理解错误处理
++ 理解Unsafe
++ https://github.com/rust-lang/rustlings
 
 
 ---
+<span id="5"></span>
+### [↑](#TOC)Day 5 (7.7)    
 
-    > todo list:
+#### todo: 
++
+
+---
+<span id="6"></span>
+### [↑](#TOC)Day 6 (7.8)    
+
+#### todo: 
++ 
+
+---
+
+    > step0 todo list:
     > 通过阅读和练习 《 Rust by Example 》) ，全面梳理一遍 Rust 语法。期间可参考书目：（《Rust权威指南》（即官方 Rust Book 中译本）、《Rust编程之道》第二章 、《深入浅出 Rust》等）。（两天）
     > 重点阅读《Rust 编程之道》 （第三、四、五章，理解类型系统和所有权；第九章，理解错误处理； 第十三章，理解Unsafe Rust） （一天）
     > 完成《Rust 编程之道》第十章的完整示例代码，掌握Cargo和模块系统。（一天）
