@@ -65,7 +65,7 @@ latest update on 2020-06-18, rust version 1.44.1
 <span id="3"></span>
 ### [↑](#TOC)Day 3 (7.5)  
 #### 1. 通篇《通过例子学 Rust》
-#### *. 细节[🔗](docs/7.5.md)
+#### *. 细节[🔗](RUST/docs/7.5.md)
 ---
 
 <span id="4"></span>
