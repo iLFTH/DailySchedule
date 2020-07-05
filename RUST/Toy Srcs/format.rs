@@ -1,24 +1,3 @@
-
-
-
-### 格式化输出
-
-format!：将格式化文本写到字符串（String）。（译注：字符串是返 回值不是参数。）
-print!：与 format! 类似，但将文本输出到控制台（io::stdout）。
-println!: 与 print! 类似，但输出结果追加一个换行符。
-eprint!：与 format! 类似，但将文本输出到标准错误（io::stderr）。
-eprintln!：与 eprint! 类似，但输出结果追加一个换行符。
-
-通常情况下，`{}` 会被任意变量内容所替换。
-> 所有 std 库类型都天生可以使用 {:?} 来打印：  
-
-e.g.  index
-```rust
-println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
-```
-
-e.g. fmt::Display
-```rust
 use std::fmt::{self, Formatter, Display};
 
 struct City {
@@ -42,7 +21,27 @@ impl Display for City {
     }
 }
 
-```
+#[derive(Debug)]
+struct Color {
+    red: u8,
+    green: u8,
+    blue: u8,
+}
 
-
-
+fn main() {
+    for city in [
+        City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
+        City { name: "Oslo", lat: 59.95, lon: 10.75 },
+        City { name: "Vancouver", lat: 49.25, lon: -123.1 },
+    ].iter() {
+        println!("{}", *city);
+    }
+    for color in [
+        Color { red: 128, green: 255, blue: 90 },
+        Color { red: 0, green: 3, blue: 254 },
+        Color { red: 0, green: 0, blue: 0 },
+    ].iter() {
+        // 在添加了针对 fmt::Display 的实现后，请改用 {} 检验效果。
+        println!("{:?}", *color)
+    }
+}
