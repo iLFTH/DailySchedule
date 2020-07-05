@@ -38,8 +38,8 @@
 |24|25|26|27|28|29|30|
 |31|
 
-## Blogs
-> It is used to describe some learning details
+## Pages
+> It is used to describe some learning details(blogs).
 
 
 ## Daily Summary
@@ -75,14 +75,33 @@ latest update on 2020-06-18, rust version 1.44.1
 + [文档注释方法](https://rustwiki.org/zh-CN/rust-by-example/meta/doc.html)
 + 格式化输出
 + 原生类型/自定义类型
-+ 了解rust的控制流写法
++ 了解rust的剩余控制流写法
     - match
     - if/while let
-+ 学习rust 链表写法([基于enum](RUST/Toy_Srcs/List.rs))
++ 学习rust 链表写法([示例](RUST/Toy_Srcs/List.rs))基于enum
 + 类型系统
-    - use std::convert::From;
+    - 可以用 type 语句给已有的类型取个新的名字。类型的名字必须遵循驼峰命名法（像是 CamelCase 这样），否则编译器将给出错误。示例如下：
+        ```rust
+        type NanoSecond = u64;
+        type Inch = u64;
+        ```
+    - 类型转换：use std::convert::From;  
+        ```rust
+        let my_str = "hello";
+        let my_string = String::from(my_str);
+        // &str常见形式是字符串字面量 
+        // String基于堆创建，是可增长的字符串。
+        ```
++ 了解了函数::方法(method),同时类比了C++的类(Class)
 + [章节后小练习](RUST/Toy_Srcs/)
-#### ... [其它记录🔗](RUST/docs/7.5.md)
+#### 2. 参考之前的个人实验笔记，在linux中重新安装QEMU
+Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
+可为后续实验做准备
+
+
+
+
+#### ... [其它记录情况🔗](RUST/docs/7.5.md)
 
 ---
 <span id="4"></span>
