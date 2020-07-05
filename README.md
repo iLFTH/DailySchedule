@@ -7,14 +7,14 @@
 
 + [Web](http://www.nuanyun.cloud)
 <span id="TOC"></span>  
----
+
 ## Tags
 
 
 - [RISC-V](http://www.nuanyun.cloud/?tag=riscv) 
 - [Rust](http://www.nuanyun.cloud/?tag=rust)
 - [Qemu](http://www.nuanyun.cloud/?tag=qemu)
----
+-
 ## TOC
 
 
@@ -39,13 +39,13 @@
 |17|18|19|20|21|22|23|
 |24|25|26|27|28|29|30|
 |31|
----
+
 ## Blogs
 > It is used to describe some learning details
 
 
 ## Daily Summary
----
+
 <span id="1"></span>
 ### [↑](#TOC)Day 1 (7.3)
 学习办公环境整理，搬寝室
