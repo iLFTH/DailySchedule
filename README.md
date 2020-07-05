@@ -2,9 +2,7 @@
 ---
 ## Links
 + [OS Tutorial Summer of Code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
-
 + [Daily Schedule ++](https://github.com/rcore-os/rCore-Tutorial/issues/18)
-
 + [Web](http://www.nuanyun.cloud)
 <span id="TOC"></span>  
 
@@ -61,7 +59,7 @@ latest update on 2020-06-18, rust version 1.44.1
 #### 2. 理解常见rust编程概念
 + 不可变变量（与常量的区别）
 + 数据类型，及类型注释方法
-  > rust术语：Rust panic 它用于程序因错误而退出的情况。
+  > rust术语：Rust panic 它用于程序因错误而退出的情况。  
   > 编译器会对未使用的变量绑定产生警告；可以给变量名加上下划线前缀来消除警告。
 + 变量/常量/函数名命名规范
 + 函数定义方式（传参/返回值的写法）
