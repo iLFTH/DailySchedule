@@ -63,17 +63,22 @@ latest update on 2020-06-18, rust version 1.44.1
 
 ---
 <span id="3"></span>
-### [↑](#TOC)Day 3 (7.5)  [🔗](RUST/docs/7.5.md)
+### [↑](#TOC)Day 3 (7.5)  
 #### 1. 阅读《通过例子学 Rust》
----
++ [文档注释方法](https://rustwiki.org/zh-CN/rust-by-example/meta/doc.html)
++ 格式化输出
++ 
 
+#### [细节记录🔗](RUST/docs/7.5.md)
+
+---
 <span id="4"></span>
 ### [↑](#TOC)Day 4 (7.6)  
 
 
 
 
-+ [文档注释方法](https://rustwiki.org/zh-CN/rust-by-example/meta/doc.html)
+
 ---
 
     > todo list:
