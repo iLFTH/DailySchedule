@@ -92,7 +92,15 @@ latest update on 2020-06-18, rust version 1.44.1
         // &str常见形式是字符串字面量 
         // String基于堆创建，是可增长的字符串。
         ```
-+ 了解了函数::方法(method),同时类比了C++的类(Class)
++ 了解了函数 方法(method),同时类比了C++的类(Class)
++ 了解了函数 闭包(closure)和捕获（capture）  
+    ```rust
+    let color = "green";  
+    let print = || println!("`color`: {}", color);  
+    print();  
+    //调用闭包，闭包又借用 `color`。
+    print();  
+    ```
 + [章节后小练习](RUST/Toy_Srcs/)
 #### 2. 参考之前的个人实验笔记，在linux中重新安装QEMU
 Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
