@@ -84,6 +84,10 @@
 #### 2. 内存管理
 <span id="内存管理"></span>
 + ！悬垂指针
++ 栈
+    - 顶由枝指针寄存器 ESP 保存
+    - Stack Frame：Activate Record
+    ![file](pics/7.png)
 
 
 

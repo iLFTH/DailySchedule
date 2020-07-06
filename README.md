@@ -117,7 +117,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 ### [↑](#TOC)Day 4 (7.6)    
 
 重点阅读《Rust 编程之道》
-#### 1. 类型系统和所有权（Chapter-3/4/5）
+#### 1. 类型系统和所有权（Chapter-3）
 + 类型安全：  
     + 类型安全的语言可以避免类型间的无效计算
     + 类型安全的语言还可以保证内存安全
@@ -127,7 +127,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 + [rust trait](RUST/docs/7.6/mark.md#trait) 
 + [more...~](RUST/docs/7.6/mark.md)
 
-#### 2. [内存管理](RUST/docs/7.6/mark.md#内存管理) 
+#### 2. [内存管理](RUST/docs/7.6/mark.md#内存管理) （Chapter-4）
 
 #### 3. 理解错误处理（Chapter-9）
 #### 4. 理解Unsafe（Chapter-13）
