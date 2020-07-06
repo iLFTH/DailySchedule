@@ -123,8 +123,9 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
     + 类型安全的语言还可以保证内存安全
     + 类型安全的语言也可以避免语义上的逻辑错误
 + 胖指针与Copy traint的区别
-
-
++ 泛型函数/结构体
++ [trait](RUST/docs/7.6/mark.md#trait) 
+    
 #### 2. 理解错误处理（Chapter-9）
 #### 3. 理解Unsafe（Chapter-13）
 #### 4. https://github.com/rust-lang/rustlings

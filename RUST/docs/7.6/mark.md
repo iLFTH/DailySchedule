@@ -32,8 +32,9 @@
     ```
     > 在用 Rust 编程的时候， 应尽量显式声明类型 ，这样可以避免一些麻烦
 
+
 + 1.5 泛型
-    - 泛型结函数
+    - 泛型函数
     ```rust
     fn foo<T>(x:T) -> T{
         return x;
@@ -44,6 +45,25 @@
     struct Point<T> {x : T, y : T} 
     ```
     ![file](pics/1.png)
+<span id="trait"></span>  
+
++ 1.6 trait
+    - 接口中可以定义方法，并支持默认实现。
+    - 接口中不能实现另 个接口，但是接口之间可以继承
+    - 同一个接口可 以同时被多个类型实现 但不能被同一个类型实现多次
+    - 使用 impl 关键字为类型实现接口方法。
+    - 使用 trait 关键字来定义接口。
+    **[书本](https://item.jd.com/12479415.html)p64**
+    
+        > 下图中两个类型参数 RHS和 Output 分别代表加法操作符右侧的类型和返回值的类型  
+    ![file](pics/2.png)
+    ![file](pics/3.png)
+        > 字符串相加实现： Add<&str, String＞
+        let c = a.to_string () + b; 
+    ![file](pics/4.png)
+    - 孤儿规则:如果要实现某个 trait ，那么该 trait 和要实现该 trait 的那个类型至少有一个要在当前 crate 定义
+    ![file](pics/5.png)
+    ![file](pics/6.png)
 #### 2. 理解错误处理（Chapter-9） 
 
 http://www.mamicode.com/info-detail-2884335.html
