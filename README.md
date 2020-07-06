@@ -11,7 +11,7 @@
 - [RISC-V](http://www.nuanyun.cloud/?tag=riscv) 
 - [Rust](http://www.nuanyun.cloud/?tag=rust)
 - [Qemu](http://www.nuanyun.cloud/?tag=qemu)
-- [LLVM](http://www.nuanyun.cloud/?tag=tag1) 
+- [LLVM](http://www.nuanyun.cloud/?tag=) 
 
 ## TOC
 
@@ -103,7 +103,7 @@ latest update on 2020-06-18, rust version 1.44.1
 Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 应当可为后续实验做准备
 
-#### ... [详细记录情况🔗](RUST/docs/7.5.md)
+#### ... [详细记录情况🔗](RUST/docs/7.5/mark.md)
 
 
 
@@ -122,7 +122,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
     + 类型安全的语言可以避免类型间的无效计算
     + 类型安全的语言还可以保证内存安全
     + 类型安全的语言也可以避免语义上的逻辑错误
-
++ 胖指针与Copy traint的区别
 
 
 #### 2. 理解错误处理（Chapter-9）
@@ -130,7 +130,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 #### 4. https://github.com/rust-lang/rustlings
 
 
-#### ... [详细记录情况🔗](RUST/docs/7.6.md)
+#### ... [详细记录情况🔗](RUST/docs/7.6/mark.md)
 ---
 <span id="5"></span>
 ### [↑](#TOC)Day 5 (7.7)    
