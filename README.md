@@ -103,7 +103,7 @@ latest update on 2020-06-18, rust version 1.44.1
 Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 应当可为后续实验做准备
 
-#### ... [其它记录情况🔗](RUST/docs/7.5.md)
+#### ... [详细记录情况🔗](RUST/docs/7.5.md)
 
 
 
