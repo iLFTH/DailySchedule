@@ -87,7 +87,8 @@
 + 栈
     - 顶由枝指针寄存器 ESP 保存
     - Stack Frame：Activate Record
-    ![file](pics/7.png)
+        > 栈上数据的生命周期都是在一个函数调用周期内的
+        ![file](pics/7.png)
 
 
 

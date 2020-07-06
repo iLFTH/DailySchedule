@@ -45,13 +45,13 @@
 ## Daily Summary
 
 <span id="1"></span>
-### [↑](#TOC)Day 1 (7.3)
+### [↑](#TOC)Day 0 (7.3)
 学习办公环境整理，搬寝室
 建立此repo
 
 ---
 <span id="2"></span>
-### [↑](#TOC)Day 2 (7.4)
+### [↑](#TOC)Day 1 (7.4)
 #### 1. rust编程语言环境配置
 参考阅读《Rust 程序设计语言》简体中文版，在linux/macos上安装rustup  
 latest update on 2020-06-18, rust version 1.44.1  
@@ -70,7 +70,7 @@ latest update on 2020-06-18, rust version 1.44.1
 
 ---
 <span id="3"></span>
-### [↑](#TOC)Day 3 (7.5)    
+### [↑](#TOC)Day 2 (7.5)    
 
 #### 1. 阅读《通过例子学 Rust》
 + [文档注释方法](https://rustwiki.org/zh-CN/rust-by-example/meta/doc.html)
@@ -114,7 +114,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 
 ---
 <span id="4"></span>
-### [↑](#TOC)Day 4 (7.6)    
+### [↑](#TOC)Day 3 (7.6)    
 
 重点阅读《Rust 编程之道》
 #### 1. 类型系统和所有权（Chapter-3）
