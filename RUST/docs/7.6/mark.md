@@ -45,9 +45,10 @@
     struct Point<T> {x : T, y : T} 
     ```
     ![file](pics/1.png)
-<span id="trait"></span>  
+
 
 + 1.6 trait
+<span id="trait"></span>  
     - 接口中可以定义方法，并支持默认实现。
     - 接口中不能实现另 个接口，但是接口之间可以继承
     - 同一个接口可 以同时被多个类型实现 但不能被同一个类型实现多次
@@ -64,7 +65,29 @@
     - 孤儿规则:如果要实现某个 trait ，那么该 trait 和要实现该 trait 的那个类型至少有一个要在当前 crate 定义
     ![file](pics/5.png)
     ![file](pics/6.png)
-#### 2. 理解错误处理（Chapter-9） 
+    - 继承
+    - trait 限定
+    使用 trait 对泛型进行约束，叫作 trait 限定 trait Bound ）。格式如下
+        ```rust
+        fn geeric<T MyTrait + MyOtherTrait + SomeStandardTrait> (t : T) {} 
+        ```
+        > **[书本](https://item.jd.com/12479415.html)p71**
+        如果为泛型增加较多的 trait 限定，代码可能会变得不太易读，比如下面这种写法
+        fn foo<T : A, K: B+C , R: D> (a : T, b: K, c : R) {. . . }
+        Rust 提供了 **where** 关键字， 用来对这种情况进行重构
+        fn foo<T , K, R> (a: T, b : K, c : R) where T: A, K: B+C , R: D { . . }
+        这样重构之后，代码的可读性就提高了
+    + impt trait 
+        impt Trait 语法用于返回值位置的时候，实际上等价于给返回类型增加一种 trait 限定范围
+
+ 
+#### 2. 内存管理
+<span id="内存管理"></span>
++ ！悬垂指针
+
+
+
+#### 3. 理解错误处理（Chapter-9） 
 
 http://www.mamicode.com/info-detail-2884335.html
 Rust处理异常的方法有4种：Option、Result<T, E>、线程恐慌（Panic）、程序终止（Abort）
@@ -91,5 +114,5 @@ fn main() {
     assert_eq!(None.unwrap_or_else(|| 2 * k), 20);
 }
 ```
-#### 3. 理解Unsafe（Chapter-13）
-#### 4. https://github.com/rust-lang/rustlings
+#### 4. 理解Unsafe（Chapter-13）
+#### 5. https://github.com/rust-lang/rustlings
