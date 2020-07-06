@@ -95,7 +95,7 @@ latest update on 2020-06-18, rust version 1.44.1
         ```
 + 了解了函数 方法(method),同时类比了C++的类(Class)
 + 了解了函数 [闭包(closure)和捕获（capture）](https://rustwiki.org/zh-CN/rust-by-example/fn/closures/capture.html)  
-> 先jump to对所有权的学习（书中的示例代码用到了许多有关所有权的知识，打算在明天学习）
+> 跳转对所有权的学习（书中的示例代码用到了许多有关所有权的知识，打算在明天学习）
 + [章节后小练习](RUST/Toy_Srcs/)
 #### 2. Rust教程
 + https://www.yiibai.com/rust/rust-smart-pointers.html ： Rust智能指针学习
@@ -140,7 +140,7 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 ### [↑](#TOC)Day 5 (7.7)    
 
 #### todo: 
-+
++ 
 
 ---
 <span id="6"></span>
