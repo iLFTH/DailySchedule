@@ -134,15 +134,16 @@ Try to **Re**Run [64-bit RISC-V Linux on QEMU](http://www.nuanyun.cloud/?p=430)
 #### ... [详细记录情况🔗](RUST/docs/7.6/mark.md)
 ---
 <span id="5"></span>
-### [↑](#TOC)Day 5 (7.7)    
+### [↑](#TOC)Day 4 (7.7)    
 
 todo：
 #### 1. 理解Unsafe（Chapter-13）
 #### 3. 完成《Rust 编程之道》第十章的完整示例代码，掌握Cargo和模块系统。
 
+#### ... [详细记录情况🔗](RUST/docs/7.7/mark.md)
 ---
 <span id="6"></span>
-### [↑](#TOC)Day 6 (7.8)    
+### [↑](#TOC)Day 5 (7.8)    
 
 #### todo: 
 + #### 2. https://github.com/rust-lang/rustlings
