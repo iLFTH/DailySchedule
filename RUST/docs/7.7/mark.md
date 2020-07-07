@@ -10,16 +10,25 @@ todo：
 > 目录结构  
 ![](pics/2.png)  
 
-> 测试test模块
+> 测试test模块  
 ![](pics/3.png)
 
-> cargo run的debug和release模式选择（默认debug）
+> cargo run的debug和release模式选择（默认debug）  
 ![](pics/4.png) 
 
 > 调用第三方crate  
 ![](pics/5.png)
 
-> 添加正则表达式依赖
+> 添加正则表达式依赖  
 ![](pics/7.png)
 ![](pics/6.png)
+
+<span id="lazy_static"></span>
+![](pics/9.png)  
+
+
+
+RwLock 读写锁它允许多个线程读，单个线程写
+Metux 互斥锁只允许单个线程读和写。
+
 ---

@@ -156,20 +156,35 @@ Rust 中的包管理工具叫做Cargo，第三方包叫crate
 + Cargo.lock 只记录依赖包的详细信息，不需要开发者维护，而是由 Cargo 自动维护的。
 + 使用第三方包
     - Cargo 默认会把连字符转换成下画线
+    - 尝试添加正则表达式依赖 [regex学习](http://www.nuanyun.cloud/?p=587)
+    - lazy_static ！[宏的语法](RUST/docs/7.7/mark.md#lazy_static)
+    - [ RwLock 读写锁 和Metux互斥锁](http://www.nuanyun.cloud/?p=588)
 
-
-> [完成《Rust 编程之道》第十章的完整示例代码](RUST/Rust编程之道第十章的完整示例代码/readme.md)，掌握Cargo和模块系统
+> [完成《Rust 编程之道》第十章的完整示例代码](https://github.com/iLFTH/DailySchedule/tree/master/RUST/Rust%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%81%93%E7%AC%AC%E5%8D%81%E7%AB%A0%E7%9A%84%E5%AE%8C%E6%95%B4%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81)，掌握Cargo和模块系统
 
 ##### 问题解决
-Question 1:
+**Q**uestion 1:
 Rust使用第三方包在Cargo.toml中添加[dependencies]：的时候，
 如现在要添加：regex = "版本号"，是否有必要刻意去crates.io中去查找所添加包的最新版本号呢？
 因为我看到运行cargo run的时候会自动采用最新版本的包。
 ![](RUST/docs/7.7/pics/6.png)
 
-Answer 1:
+**A**nswer 1:
 1. 参看 《Rust编程之道》 P330 ：指定第三方包的依赖关系：语义化版本号说明
 2. 参考[《Cargo使用文档-指定依赖项》](https://www.cnblogs.com/yishuyuan/p/7390857.html)
+
+
+**Q**uestion 2: ref 和 & 的异同？
+**A**nswer 2:
+[有时候不方便 用 & 的地方，可以用 ref](https://segmentfault.com/q/1010000019974689/a-1020000019975860)
+ref 在=号左边
+```rust
+    let a = &3_u8 ;
+    let ref b = 3_u8;
+    assert_eq!(*a,*b);
+```
+a 和 b 是完全相等的
+
 
 
 #### 2. 理解Unsafe（Chapter-13）
