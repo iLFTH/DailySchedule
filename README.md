@@ -159,6 +159,7 @@ Rust 中的包管理工具叫做Cargo，第三方包叫crate
     - 尝试添加正则表达式依赖 [regex学习](http://www.nuanyun.cloud/?p=587)
     - lazy_static ！[宏的语法](RUST/docs/7.7/mark.md#lazy_static)
     - [ RwLock 读写锁 和Metux互斥锁](http://www.nuanyun.cloud/?p=588)
+    - Cargo.toml 配置文件格式/层级关系
 
 > [完成《Rust 编程之道》第十章的完整示例代码](https://github.com/iLFTH/DailySchedule/tree/master/RUST/Rust%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%81%93%E7%AC%AC%E5%8D%81%E7%AB%A0%E7%9A%84%E5%AE%8C%E6%95%B4%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81)，掌握Cargo和模块系统
 
@@ -170,8 +171,8 @@ Rust使用第三方包在Cargo.toml中添加[dependencies]：的时候，
 ![](RUST/docs/7.7/pics/6.png)
 
 **A**nswer 1:
-1. 参看 《Rust编程之道》 P330 ：指定第三方包的依赖关系：语义化版本号说明
-2. 参考[《Cargo使用文档-指定依赖项》](https://www.cnblogs.com/yishuyuan/p/7390857.html)
+1. 参看 《Rust编程之道》 **P330** ：指定第三方包的依赖关系：语义化版本号说明
+2. 参考 [《Cargo使用文档-指定依赖项》](https://www.cnblogs.com/yishuyuan/p/7390857.html)
 
 
 **Q**uestion 2: ref 和 & 的异同？

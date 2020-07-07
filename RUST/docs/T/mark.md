@@ -15,5 +15,9 @@
 
 2. [rust 数组和向量 Arrays and Vectors](https://github.com/nrc/r4cppp/blob/master/arrays.md)
 
+3. 格式化Rust代码：Cargo 扩展rustfmt
+    ```shell
+    $ cargo fmt
+    ```
 ## Risc-V
 
