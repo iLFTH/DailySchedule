@@ -161,6 +161,11 @@ Rust 中的包管理工具叫做Cargo，第三方包叫crate
     - [ RwLock 读写锁 和Metux互斥锁](http://www.nuanyun.cloud/?p=588)
     - Cargo.toml 配置文件格式/层级关系
 
+##### 1.2 模块系统 
++ 在 Rust 2018 中，如果存在与文件同的目录，在该目录下定义的模块都是该文件的子模快
+
+##### 1.3 rust2018可见性和私有性
+
 > [完成《Rust 编程之道》第十章的完整示例代码](https://github.com/iLFTH/DailySchedule/tree/master/RUST/Rust%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%81%93%E7%AC%AC%E5%8D%81%E7%AB%A0%E7%9A%84%E5%AE%8C%E6%95%B4%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81)，掌握Cargo和模块系统
 
 ##### 问题解决
