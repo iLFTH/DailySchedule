@@ -156,12 +156,26 @@ Rust 中的包管理工具叫做Cargo，第三方包叫crate
 + Cargo.lock 只记录依赖包的详细信息，不需要开发者维护，而是由 Cargo 自动维护的。
 + 使用第三方包
     - Cargo 默认会把连字符转换成下画线
-todo：
-> [完成《Rust 编程之道》第十章的完整示例代码](RUST/《Rust 编程之道》第十章的完整示例代码)，掌握Cargo和模块系统
+
+
+> [完成《Rust 编程之道》第十章的完整示例代码](RUST/Rust编程之道第十章的完整示例代码/readme.md)，掌握Cargo和模块系统
+
+##### 问题解决
+Question 1:
+Rust使用第三方包在Cargo.toml中添加[dependencies]：的时候，
+如现在要添加：regex = "版本号"，是否有必要刻意去crates.io中去查找所添加包的最新版本号呢？
+因为我看到运行cargo run的时候会自动采用最新版本的包。
+![](RUST/docs/7.7/pics/6.png)
+
+Answer 1:
+1. 参看 《Rust编程之道》 P330 ：指定第三方包的依赖关系：语义化版本号说明
+2. 参考[《Cargo使用文档-指定依赖项》](https://www.cnblogs.com/yishuyuan/p/7390857.html)
+
 
 #### 2. 理解Unsafe（Chapter-13）
 #### ... [详细记录情况🔗](RUST/docs/7.7/mark.md)
 ---
+
 
 
 
