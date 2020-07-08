@@ -1,0 +1,12 @@
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/console-7d1b218cbb7fd3fd.rmeta: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/common_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/kb.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/unix_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/utils.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/libconsole-7d1b218cbb7fd3fd.rlib: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/common_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/kb.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/unix_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/utils.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/console-7d1b218cbb7fd3fd.d: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/common_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/kb.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/unix_term.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/utils.rs
+
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/lib.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/common_term.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/kb.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/term.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/unix_term.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/console-0.8.0/src/utils.rs:

@@ -205,7 +205,7 @@ a 和 b 是完全相等的
 
 #### todo: 
 + #### 1. https://github.com/rust-lang/rustlings
-#### ... [详细记录情况🔗](RUST/docs/7.7/mark.md)
+#### ... [详细记录情况🔗](RUST/docs/7.8/mark.md)
 
 
 

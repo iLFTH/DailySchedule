@@ -1,0 +1,11 @@
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/release/deps/proc_macro2-5b18d408ea1e3b4b.rmeta: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/parse.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/detection.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/fallback.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/wrapper.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/release/deps/libproc_macro2-5b18d408ea1e3b4b.rlib: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/parse.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/detection.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/fallback.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/wrapper.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/release/deps/proc_macro2-5b18d408ea1e3b4b.d: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/parse.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/detection.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/fallback.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/wrapper.rs
+
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/lib.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/parse.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/detection.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/fallback.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.18/src/wrapper.rs:

@@ -1,0 +1,12 @@
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/notify-7df2b14d85cf2f7e.rmeta: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/inotify.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/null.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/poll.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/mod.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/timer.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/libnotify-7df2b14d85cf2f7e.rlib: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/inotify.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/null.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/poll.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/mod.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/timer.rs
+
+/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/deps/notify-7df2b14d85cf2f7e.d: /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/lib.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/inotify.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/null.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/poll.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/mod.rs /home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/timer.rs
+
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/lib.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/inotify.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/null.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/poll.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/mod.rs:
+/home/nn/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/notify-4.0.15/src/debounce/timer.rs:
