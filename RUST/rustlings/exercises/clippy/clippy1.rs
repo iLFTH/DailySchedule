@@ -6,7 +6,7 @@
 // check clippy's suggestions from the output to solve the exercise.
 // Execute `rustlings hint clippy1` for hints :)
 
-// I AM NOT DONE
+
 // error: strict comparison of `f32` or `f64`
 //   --> clippy1.rs:14:8
 //    |

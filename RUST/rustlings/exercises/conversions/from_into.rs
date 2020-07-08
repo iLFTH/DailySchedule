@@ -33,9 +33,46 @@ impl Default for Person {
 // 5. Extract the other element from the split operation and parse it into a `usize` as the age
 // If while parsing the age, something goes wrong, then return the default of Person
 // Otherwise, then return an instantiated Person object with the results
+            // let splits: [&str;2] = s.split(',').collect();
+// 45 |             let splits: [&str;2] = s.split(',').collect();
+//    |                                                 ^^^^^^^ value of type `[&str; 2]` cannot be built from `std::iter::Iterator<Item=&str>`
+           
+fn char_counter<T:AsRef<str>>(arg: T) -> usize {
+    arg.as_ref().chars().count()
+}
+
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        let splits: Vec<&str> = s.split(',').collect();
+        if char_counter(s) == 0 || splits.len() != 2 {
+            return Default::default();
+        }
+
+        let mut name;
+        let mut age;
+        //parse name
+        if char_counter(splits[0]) == 0{
+            return Default::default();
+        } else {
+            name = splits[0].to_string();
+        }
+
+        //parse age
+        if char_counter(splits[1]) == 0{
+            return Default::default();
+        } else {
+            age = match splits[1].parse::<usize>() {
+                Ok(x) => x,
+                Err(_) => return Default::default(),
+            };//bad age
+        }
+        Person{
+            name,
+            age
+        }
+
     }
+
 }
 
 fn main() {
