@@ -204,7 +204,7 @@ a 和 b 是完全相等的
 ### [↑](#TOC)Day 5 (7.8)    
 
 #### todo: 
-+ #### 1. 今日完成[rustlings](https://github.com/rust-lang/rustlings)
++ #### 1. 今日完成[rustlings](https://github.com/rust-lang/rustlings)(80%)
 
 [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings)
 #### ... [rustling练习笔记🔗](RUST/docs/7.8/mark.md)
