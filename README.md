@@ -200,13 +200,16 @@ a 和 b 是完全相等的
 
 
 
-
-
 <span id="6"></span>
 ### [↑](#TOC)Day 5 (7.8)    
 
 #### todo: 
-+ #### 2. https://github.com/rust-lang/rustlings
++ #### 1. https://github.com/rust-lang/rustlings
+#### ... [详细记录情况🔗](RUST/docs/7.7/mark.md)
+
+
+
+
 
 ---
 
