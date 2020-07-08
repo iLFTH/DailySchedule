@@ -203,13 +203,38 @@ a 和 b 是完全相等的
 <span id="6"></span>
 ### [↑](#TOC)Day 5 (7.8)    
 
-#### todo: 
 + #### 1. 今日完成[rustlings](https://github.com/rust-lang/rustlings)(80%)
 
 [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings)
 #### ... [rustling练习笔记🔗](RUST/docs/7.8/mark.md)
 
+---
 
+<span id="7"></span>
+### [↑](#TOC)Day 6 (7.9)    
+
+#### todo: 
++ #### 1. 继续完成[rustlings](https://github.com/rust-lang/rustlings)(100%)
+---
+
+
+<span id="8"></span>
+### [↑](#TOC)Day 7+8 (7.10~11)    
+#### todo : 
++ #### rust 15题编程小练习
+----
+
+
+<span id="10"></span>
+### [↑](#TOC)Day 9/10/11/12/13 (7.12~16)    
+#### todo : 
++ #### RISCV
+----
+
+<!-- [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings) -->
+<!-- #### ... [rustling练习笔记🔗](RUST/docs/7.9/mark.md)
+
+ -->
 
 
 
