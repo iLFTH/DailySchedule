@@ -7,11 +7,23 @@
 // Execute `rustlings hint clippy1` for hints :)
 
 // I AM NOT DONE
+// error: strict comparison of `f32` or `f64`
+//   --> clippy1.rs:14:8
+//    |
+// 14 |     if y != x {
+//    |        ^^^^^^ help: consider comparing them within some error: `(y - x).abs() > error`
+
 
 fn main() {
     let x = 1.2331f64;
     let y = 1.2332f64;
-    if y != x {
+    // if y != x {
+    //     println!("Success!");
+    // }
+
+    if (x - y).abs() < f64::EPSILON{ //https://en.wikipedia.org/wiki/Machine_epsilon
         println!("Success!");
+
     }
+    
 }

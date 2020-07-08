@@ -40,3 +40,12 @@
         string("Happy Monday!".to_string().replace("Mon", "Tues"));
         string("mY sHiFt KeY iS sTiCkY".to_lowercase());
         ```
++ macro :宏的参数使用一个美元符号 $ 作为前缀，并使用一个指示符（designator）来 注明类型：
+https://blog.csdn.net/teamlet/article/details/50989186
+
++ [Machine epsilon](https://en.wikipedia.org/wiki/Machine_epsilon)
+```rust
+    if (x - y).abs() < f64::EPSILON{ //https://en.wikipedia.org/wiki/Machine_epsilon
+        println!("Success!");
+    }
+```

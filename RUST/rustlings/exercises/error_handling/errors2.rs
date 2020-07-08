@@ -16,15 +16,19 @@
 // There are at least two ways to implement this that are both correct-- but
 // one is a lot shorter! Execute `rustlings hint errors2` for hints to both ways.
 
-// I AM NOT DONE
+
+
+
 
 use std::num::ParseIntError;
 
 pub fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {
     let processing_fee = 1;
     let cost_per_item = 5;
-    let qty = item_quantity.parse::<i32>();
-
+    let qty = item_quantity.parse::<i32>()?;
+// This pattern is very common in Rust, though, so there's
+// a `?` operator that does pretty much what you would make that match statement
+// do for you!
     Ok(qty * cost_per_item + processing_fee)
 }
 
