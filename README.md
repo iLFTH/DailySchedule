@@ -210,18 +210,14 @@ a 和 b 是完全相等的
 
 ---
 
-<span id="7"></span>
-### [↑](#TOC)Day 6 (7.9)    
 
-#### todo: 
-+ #### 1. 继续完成[rustlings](https://github.com/rust-lang/rustlings)(100%)
----
 
 
 <span id="8"></span>
-### [↑](#TOC)Day 7+8 (7.10~11)    
+### [↑](#TOC)Day 6+7+8 (7.9~11)    
 #### todo : 
-+ #### rust 15题编程小练习
+#### 1. 继续完成[rustlings](https://github.com/rust-lang/rustlings)(100%)
+#### 2. rust 15题编程小练习
 ----
 
 
