@@ -218,8 +218,7 @@ a 和 b 是完全相等的
 #### todo : 
 #### 1. 继续完成[rustlings](https://github.com/rust-lang/rustlings)
 #### 2. rust 15题编程小练习
- 这里的编程练习题采了《[PTA甲级练习题集](https://pintia.cn/problem-sets/994805342720868352/problems/type/7)》
- ![练习](RUST/docs/7.10/pics/1.png)
+ 这里的编程练习题采取了《[PAT甲级真题集](https://pintia.cn/problem-sets/994805148990160896/problems/type/7)》中的中小练习题。
 
 
 
