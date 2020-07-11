@@ -220,6 +220,7 @@ a 和 b 是完全相等的
 #### 2. rust 15题编程小练习
  这里的编程练习题采取了《[PAT甲级真题集](https://pintia.cn/problem-sets/994805148990160896/problems/type/7)》中的中小练习题。
 
+[小练习目录](https://github.com/iLFTH/DailySchedule/tree/master/RUST/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%BB%83%E4%B9%A015%E9%A2%98)
 
 
 ----
