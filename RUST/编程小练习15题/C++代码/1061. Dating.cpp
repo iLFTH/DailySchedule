@@ -1,35 +1,45 @@
-#include <bits/stdc++.h>
+#include <cstdio>
+#include <iostream>
+#include <cstring>
+#include <cctype>
+#include <map>
+
 using namespace std;
-using gg = long long;
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout << setfill('0');  //输出用字符0填充
-    // ABCDEFG七个字符到星期的映射
-    unordered_map<char, string> week = {
-        {'A', "MON"}, {'B', "TUE"}, {'C', "WED"}, {'D', "THU"},
-        {'E', "FRI"}, {'F', "SAT"}, {'G', "SUN"}};
-    // 0~9、A~N到小时的映射
-    unordered_map<char, gg> hour;
-    for (gg i = 0; i < 24; ++i)
-        hour.insert({i < 10 ? i + '0' : i - 10 + 'A', i});
-    string s1, s2;
-    cin >> s1 >> s2;
-    for (gg i = 0, c = 0; i < min(s1.size(), s2.size()); ++i) {
-        if (s1[i] == s2[i] and c == 0 and week.count(s1[i])) {
-            cout << week[s1[i]] << " ";
-            ++c;
-        } else if (s1[i] == s2[i] and c == 1 and hour.count(s1[i])) {
-            cout << setw(2) << hour[s1[i]] << ':';
-            ++c;
-        }
-    }
-    cin >> s1 >> s2;
-    for (gg i = 0, c = 0; i < min(s1.size(), s2.size()); ++i) {
-        if (s1[i] == s2[i] and isalpha(s1[i])) {
-            cout << setw(2) << i;
+
+char a1[80],a2[80],a3[80],a4[80];
+string day[7] = {"MON ","TUE ","WED ","THU ","FRI ","SAT ","SUN "};
+
+int main(){
+
+    scanf("%s%s%s%s",a1,a2,a3,a4);
+
+    int l1 = strlen(a1), l2 = strlen(a2), l3 = strlen(a3), l4 = strlen(a4);
+    int count = 0, c = 0;
+    char a, b;
+    for(int i=0; i<min(l1,l2); i++){
+        if(a1[i]==a2[i]&&(a1[i] >= 'A' && a1[i] <= 'G')){
+            count = i;
+            a = a1[i];
             break;
         }
     }
+    for(int i=count+1; i<min(l1,l2); i++){
+        if(a1[i]==a2[i]&&((a1[i] >= 'A' && a1[i] <= 'N') || isdigit(a1[i]))){
+            b = a1[i];
+            break;
+        }
+    }
+    for(int i=0; i<min(l3,l4); i++){
+        if(a3[i]==a4[i] && isalpha(a3[i])) {
+            c = i;
+            break;
+        }
+    }
+
+    cout << day[a-'A'];
+    int m = b - '0';
+    if(!isdigit(b)) m = b - 'A' + 10;
+    printf("%02d:%02d",m,c);
+
     return 0;
 }
