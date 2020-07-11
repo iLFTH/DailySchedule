@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-char data[1000000];//结点地址有5位数字，故这个哈希表数组至少要开到10的6次方
-int Next[1000000];//结点地址有5位数字，故这个哈希表数组至少要开到10的6次方
-bool hashTable[1000000];//结点地址有5位数字，故这个哈希表数组至少要开到10的6次方
+char data[10000];
+int Next[10000];
+bool hashTable[10000];
 int main(){
-    int begin1,begin2,N;//链表1起始地址、链表2起始地址，给出的结点总数
+    int begin1,begin2,N;
     scanf("%d%d%d",&begin1,&begin2,&N);
     while(N--){
         int a;
