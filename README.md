@@ -229,10 +229,10 @@ a 和 b 是完全相等的
 ### [↑](#TOC)Day 9 (7.12)    
 #### 1. RISCV
   + PPT for 《[RISC-V Privileged Architecture](https://content.riscv.org/wp-content/uploads/2018/05/riscv-privileged-BCN.v7-2.pdf)》
-#### ... [学习笔记🔗](RUST/docs/7.12/mark.md)
+#### ... [学习笔记🔗](RISC-V/docs/7.12/mark.md)
 ----
 
-
+s
 <span id="11"></span>
 ### [↑](#TOC)Day 10/11/12/13 (7.13~16)    
 #### todo : 
