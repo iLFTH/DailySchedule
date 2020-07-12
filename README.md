@@ -203,9 +203,9 @@ a 和 b 是完全相等的
 <span id="6"></span>
 ### [↑](#TOC)Day 5 (7.8)    
 
-+ #### 1. 今日完成[rustlings](https://github.com/rust-lang/rustlings)(80%)
++ #### 1. 今日完成[rustlings](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings_exercises)(80%)
 
-[修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings)
+[练习: 代码目录 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings_exercises)
 #### ... [rustling练习笔记🔗](RUST/docs/7.8/mark.md)
 
 ---
@@ -214,9 +214,9 @@ a 和 b 是完全相等的
 
 
 <span id="8"></span>
-### [↑](#TOC)Day 6+7+8 (7.9~11)    
+### [↑](#TOC)Day 6/7/8 (7.9~11)    
 #### todo : 
-#### 1. 继续完成[rustlings](https://github.com/rust-lang/rustlings)
+#### 1. 继续完成[rustlings](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings_exercises)(100%)
 #### 2. rust 15题编程小练习
  这里的编程练习题采用了《[PAT甲级](https://pintia.cn/problem-sets/994805148990160896/problems/type/7)》中小练习题。
 
