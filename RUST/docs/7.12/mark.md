@@ -11,3 +11,4 @@ Supported combinations of modes:
 
 CSRs Control/Status Regs  
 - Direct address mode only
+- accesses by lower privilege modes will trap
