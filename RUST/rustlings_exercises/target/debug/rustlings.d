@@ -1,1 +1,0 @@
-/mnt/hgfs/DailySchedule/RUST/rustlings/target/debug/rustlings: /mnt/hgfs/DailySchedule/RUST/rustlings/src/exercise.rs /mnt/hgfs/DailySchedule/RUST/rustlings/src/main.rs /mnt/hgfs/DailySchedule/RUST/rustlings/src/run.rs /mnt/hgfs/DailySchedule/RUST/rustlings/src/ui.rs /mnt/hgfs/DailySchedule/RUST/rustlings/src/verify.rs
