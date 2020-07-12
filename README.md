@@ -227,9 +227,11 @@ a 和 b 是完全相等的
 
 <span id="10"></span>
 ### [↑](#TOC)Day 9 (7.12)    
-#### 1. RISCV
+#### 1. RISCV  
+
   + PPT for 《[RISC-V Privileged Architecture](https://content.riscv.org/wp-content/uploads/2018/05/riscv-privileged-BCN.v7-2.pdf)》
-#### ... [学习笔记🔗](RISC-V/docs/7.12/mark.md)
+  + OS实习第一次线上交流会
+
 ----
 
 s
