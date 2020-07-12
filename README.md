@@ -215,7 +215,6 @@ a 和 b 是完全相等的
 
 <span id="8"></span>
 ### [↑](#TOC)Day 6/7/8 (7.9~11)    
-#### todo : 
 #### 1. 继续完成[rustlings](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings_exercises)(100%)
 #### 2. rust 15题编程小练习
  这里的编程练习题采用了《[PAT甲级](https://pintia.cn/problem-sets/994805148990160896/problems/type/7)》中小练习题。
@@ -227,11 +226,18 @@ a 和 b 是完全相等的
 
 
 <span id="10"></span>
-### [↑](#TOC)Day 9/10/11/12/13 (7.12~16)    
-#### todo : 
+### [↑](#TOC)Day 9 (7.12)    
 + #### RISCV
+  阅读《计算机组成与设计（RISC-V版）》第一、二章
 ----
 
+
+<span id="11"></span>
+### [↑](#TOC)Day 10/11/12/13 (7.13~16)    
+#### todo : 
++ #### RISCV
+  自学PPT for RIS-V特权指令级架构
+----
 <!-- [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings) -->
 <!-- #### ... [rustling练习笔记🔗](RUST/docs/7.9/mark.md)
 
