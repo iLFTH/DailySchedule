@@ -264,8 +264,9 @@ a 和 b 是完全相等的
 ### [↑](#TOC)Day 11 (7.15)    
 
 todo：
-#### 1. start Lab 0 部署实验环境/并借助后续的实验练习RUST
-#### 2. 继续深入了解RISC-V ，如MMU
+#### 1. 继续深入了解RISC-V ，如MMU
+#### 2. start Lab 0 部署实验环境
+
 
 ----
 
@@ -274,7 +275,7 @@ todo：
 ### [↑](#TOC)Day 10/11/12/13 (7.13~16)    
 #### todo : 
 + #### 学习RISCV为主
-+ #### 尝试着开始做LAB
++ #### 尝试着开始做LAB/并借助后续的实验不断练习RUST
   
 ----
 <!-- [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings) -->
