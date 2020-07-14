@@ -180,7 +180,8 @@ Rust使用第三方包在Cargo.toml中添加[dependencies]：的时候，
 2. 参考 [《Cargo使用文档-指定依赖项》](https://www.cnblogs.com/yishuyuan/p/7390857.html)
 
 
-**Q**uestion 2: ref 和 & 的异同？
+**Q**uestion 2: ref 和 & 的异同？  
+
 **A**nswer 2:
 [有时候不方便 用 & 的地方，可以用 ref](https://segmentfault.com/q/1010000019974689/a-1020000019975860)
 ref 在=号左边
