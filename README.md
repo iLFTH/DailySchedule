@@ -215,12 +215,13 @@ a 和 b 是完全相等的
 
 
 <span id="8"></span>
-### [↑](#TOC)Day 6/7/8 (7.9~11)    
+### [↑](#TOC)Day 6/7/8 (7.9~11) 
+
 #### 1. 继续完成[rustlings](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings_exercises)(100%)
 #### 2. rust 15题编程小练习
  这里的编程练习题采用了《[PAT甲级](https://pintia.cn/problem-sets/994805148990160896/problems/type/7)》中小练习题。
 
-####[... 练习：本地目录🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%BB%83%E4%B9%A015%E9%A2%98)
+#### ... [ 练习：本地目录🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/%E7%BC%96%E7%A8%8B%E5%B0%8F%E7%BB%83%E4%B9%A015%E9%A2%98)
 
 
 ----
@@ -241,7 +242,7 @@ a 和 b 是完全相等的
 <span id="13"></span>
 ### [↑](#TOC)Day 10 (7.13)    
 
-#### 1. 观看学习教学视频 （P1-P10） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》
+#### 1. 观看学习教学视频 （P1-P7） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》
 > 1. RISC-V指令集没有逻辑非： XOR 0x1111_1111
 > 2. 寄存器调用规范
 ![寄存器调用规范](RISC-V/docs/7.14/pics/1.png)
@@ -251,11 +252,11 @@ a 和 b 是完全相等的
 <span id="14"></span>
 ### [↑](#TOC)Day 11 (7.14)    
 
-#### 1. 观看学习教学视频 （P10-P16） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》  
-
-
-
+#### 1. 观看学习教学视频 （P8-P16） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》  
 #### 2. 阅读 [RISC-V手册：一本开源指令集的指南 第10章](http://crva.io/documents/RISC-V-Reader-Chinese-v2p1.pdf)
+
+#### ... [详细记录情况🔗](RISC-V/docs/7.14/mark.md)
+
 ----
 
 
