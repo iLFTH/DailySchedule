@@ -230,6 +230,9 @@ a 和 b 是完全相等的
 #### 1. RISCV  
 
   + PPT for 《[RISC-V Privileged Architecture](https://content.riscv.org/wp-content/uploads/2018/05/riscv-privileged-BCN.v7-2.pdf)》
+  + [终于有人把RISC-V讲明白了](http://m.elecfans.com/article/653167.html)
+  + RISC-V的模块化指令集
+  > 目前的“RISC-V架构文档”分为“指令集文档”（riscv-spec-v2.2.pdf）和“特权架构文档”（riscv-privileged-v1.10.pdf）
 #### 2. OS实习第一次线上交流会
 
 ----
@@ -238,13 +241,19 @@ a 和 b 是完全相等的
 ### [↑](#TOC)Day 10 (7.13)    
 
 #### 1. 观看学习教学视频 （P1-P10） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》
+> 1. RISC-V指令集没有逻辑非： XOR 0x1111_1111
+> 2. 寄存器调用规范
+![寄存器调用规范](RISC-V/docs/7.14/pics/1.png)
 
 ----
 
 <span id="14"></span>
 ### [↑](#TOC)Day 11 (7.14)    
 
-#### 1. 观看学习教学视频 （P10-P16） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》
+#### 1. 观看学习教学视频 （P10-P16） 《[计算机组成与设计：RISC-V](https://www.bilibili.com/video/BV1tz411z7GN?from=search&seid=8955350794932955609)》  
+
+
+
 #### 2. 阅读 [RISC-V手册：一本开源指令集的指南 第10章](http://crva.io/documents/RISC-V-Reader-Chinese-v2p1.pdf)
 ----
 
