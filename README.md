@@ -270,6 +270,8 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 + 了解写RUST写OS的相关综述信息
 + 部署了实验环境
 + OpenSBI
+> Lab 0 中所用到的许多知识点和嵌入式系统设计有相通，比如bootloader/汇编启动文件/链接脚本/中断异常处理函数handler等的编写...     
+> 但是rust更方便地提供了交叉编译工具链的部署，不需要从源代码编译gun-toochain/llvm-tools了，十分快捷。
 
 #### ... [Lab 0记录](LABS/Lab_0/logs.md)
 ----
