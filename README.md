@@ -269,7 +269,7 @@ todo：
 + 了解写RUST写OS的相关综述信息
 + 部署实验环境
 
-
+#### ... [Lab 0记录](LABS/Lab_0/logs.md)
 ----
 
 
@@ -278,7 +278,7 @@ todo：
 #### todo : 
 + #### 学习RISCV为主
 + #### 尝试着开始做LAB/并借助后续的实验不断练习RUST
-  
+
 ----
 <!-- [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings) -->
 <!-- #### ... [rustling练习笔记🔗](RUST/docs/7.9/mark.md)
