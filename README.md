@@ -263,11 +263,13 @@ a 和 b 是完全相等的
 <span id="15"></span>
 ### [↑](#TOC)Day 12 (7.15)    
 
-todo：
 #### 1. 继续深入了解RISC-V::MMU
+RISC-V 的 S Mode  
+Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现代类 Unix 操作系统所需要的基于页面的虚拟内存机制是其核心。
 #### 2. start [Lab 0](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/intro.html):
 + 了解写RUST写OS的相关综述信息
-+ 部署实验环境
++ 部署了实验环境
++ OpenSBI
 
 #### ... [Lab 0记录](LABS/Lab_0/logs.md)
 ----
@@ -278,6 +280,7 @@ todo：
 #### todo : 
 + #### 学习RISCV为主
 + #### 尝试着开始做LAB/并借助后续的实验不断练习RUST
+
 
 ----
 <!-- [修改过的练习代码 🔗](https://github.com/iLFTH/DailySchedule/tree/master/RUST/rustlings) -->

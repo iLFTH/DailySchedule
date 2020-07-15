@@ -117,7 +117,11 @@ Heap：堆，用来支持程序运行过程中内存的动态分配，比如说�
 
 
 ### 重写程序入口点 _start
+  + OpenSBI运行在 RISC-V 64 的 M Mode（CPU 加电后也就运行在 M Mode），
+  + 我们将要实现的 OS 内核运行在 S Mode
+  + 而我们要支持的用户程序运行在 U Mode。
 
+  > OpenSBI 所做的一件事情就是把 CPU 从 M Mode 切换到 S Mode，接着跳转到一个固定地址 0x80200000，开始执行内核代码。
 ![](pics/4.png)
 ![](pics/4.png)
 ![](pics/4.png)
