@@ -270,7 +270,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 #### 2. start [Lab 0](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/intro.html):
 + 了解写RUST写OS的相关综述信息
 + 部署了实验环境
-+ OpenSBI
++ [OpenSBI](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/part-9.html)
 > Lab 0 中所用到的许多知识点和嵌入式系统设计有相通之处，比如bootloader/汇编启动文件/链接脚本/中断异常处理函数handler等的编写...     
 > 但是rust更方便地提供了交叉编译工具链的部署，不再需要从源代码编译得到gun-toochains以及llvm-tools了，十分快捷。
 
