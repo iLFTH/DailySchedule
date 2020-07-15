@@ -122,8 +122,24 @@ Heap：堆，用来支持程序运行过程中内存的动态分配，比如说�
   + 而我们要支持的用户程序运行在 U Mode。
 
   > OpenSBI 所做的一件事情就是把 CPU 从 M Mode 切换到 S Mode，接着跳转到一个固定地址 0x80200000，开始执行内核代码。
-  
-![](pics/4.png)
-![](pics/4.png)
-![](pics/4.png)
-![](pics/4.png)
+
+
+![](pics/8.png) 
+
+### 使用 QEMU 运行内核 
+
++ [从QEMU-5.0.0源代码编译支持RISC-V](http://www.nuanyun.cloud/?p=591)
++ 使用 OpenSBI 
+![](pics/9.png) 
+
+```shell
+qemu-system-riscv64 \
+            -machine virt \
+            -nographic \
+            -bios default \
+            -device loader,file=$(BIN_FILE),addr=0x80200000
+```
+> 这里我们通过参数 -device 来将内核镜像加载到 QEMU 中，我们指定了内核镜像文件，并告诉 OpenSBI 最后跳转到 0x80200000 这个入口地址。
+
+![](pics/10.png) 
+可以看到“OK”从rust_main输出

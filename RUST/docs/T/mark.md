@@ -1,6 +1,6 @@
 # 杂项
 
-## Rust
+## Rust相关
 
 1. Rust开发时有时使用官方的源太慢，可以考虑更换使用国内中科大的源。
 在 $HOME/.cargo/config 中添加如下内容：
@@ -19,5 +19,7 @@
     ```shell
     $ cargo fmt
     ```
-## Risc-V
+
+
+## Risc-V相关
 

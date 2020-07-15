@@ -39,8 +39,9 @@
 |31|
 
 ## Pages
-> It is used to describe some learning details(blogs).
+> It is used to describe some learning details(blogs).  
 
+1. [从QEMU-5.0.0源代码编译支持RISC-V](http://www.nuanyun.cloud/?p=591)
 
 ## Daily Summary
 
