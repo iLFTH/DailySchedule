@@ -22,7 +22,7 @@ $ rustup component add llvm-tools-preview
 
 cargo build
 ![](pics/6.png)
-> -x 来查看程序的元信息
+> rust-objdump -x 来查看程序的元信息
 ```
 $ rust-objdump target/riscv64imac-unknown-none-elf/debug/os -x --arch-name=riscv64
 
@@ -76,7 +76,7 @@ SYMBOL TABLE:
 Program Header：程序加载时所需的段信息
 其中的 off 是它在文件中的位置，vaddr 和 paddr 是要加载到的虚拟地址和物理地址，align 规定了地址的对齐，filesz 和 memsz 分别表示它在文件和内存中的大小，flags 描述了相关权限（r 表示可读，w 表示可写，x 表示可执行）
 
-> -d 来对代码进行反汇编：
+> rust-objdump -d 来对代码进行反汇编：
 ```
 $ rust-objdump target/riscv64imac-unknown-none-elf/debug/os -d --arch-name=riscv64
 
