@@ -21,6 +21,10 @@ $ rustup component add llvm-tools-preview
 ```
 
 cargo build
+```shell
+$ cargo build --target riscv64imac-unknown-none-elf
+```
+查看程序属性信息
 ![](pics/6.png)
 > rust-objdump -x 来查看程序的元信息
 ```
