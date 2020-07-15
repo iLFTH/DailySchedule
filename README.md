@@ -265,7 +265,7 @@ a 和 b 是完全相等的
 
 todo：
 #### 1. 继续深入了解RISC-V::MMU
-#### 2. start Lab 0:
+#### 2. start [Lab 0](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/intro.html):
 + 了解写RUST写OS的相关综述信息
 + 部署实验环境
 
