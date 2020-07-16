@@ -274,7 +274,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 > Lab 0 中所用到的许多知识点和嵌入式系统设计有相通之处，比如bootloader/汇编启动文件/链接脚本/中断异常处理函数handler等的编写...     
 > 但是rust更方便地提供了交叉编译工具链的部署，不再需要从源代码编译得到gun-toochains以及llvm-tools了，十分快捷。
 
-#### ... [Lab 0记录](LABS/Lab_0/logs.md)
+#### ... [Lab 0实验记录](LABS/Lab_0/logs.md)
 
 
 
@@ -284,11 +284,13 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 ### [↑](#TOC)Day 13 (7.16)   
 
 #### 1. [Lab 1 中断](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-1/guide/part-2.html):
-  + 
+#### 2. 视频：
+  + [半个世纪过去了，是时候用Rust重写操作系统了吗？（CC字幕）](https://www.bilibili.com/video/av44834267?from=search&seid=4162693380754135939)
+  + [陈嘉杰同学介绍 rCore v0.2.0 实现历程和进展, 2019](https://tuna.moe/event/2019/rcore-os/)
   + 
   + 
 
-#### ... [Lab 1记录](LABS/Lab_1/logs.md)
+#### ... [Lab 1实验记录](LABS/Lab_1/logs.md)
 
 ----
 
