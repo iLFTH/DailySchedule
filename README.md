@@ -284,7 +284,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 ### [↑](#TOC)Day 13 (7.16)   
 
 #### 1. [Lab 1 中断](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-1/guide/part-2.html):
-#### 2. 观看视频：
+#### 2. 了解更多Rcore相关背景：
   + [半个世纪过去了，是时候用Rust重写操作系统了吗？（CC字幕）](https://www.bilibili.com/video/av44834267?from=search&seid=4162693380754135939)
   + [陈嘉杰同学介绍 rCore v0.2.0 实现历程和进展, 2019](https://tuna.moe/event/2019/rcore-os/)
   + 
