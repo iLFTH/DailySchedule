@@ -290,7 +290,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
   + 
   + 
 
-#### ... [Lab 1实验记录](LABS/Lab_1/logs.md)
+#### ... [Lab 1实验记录（async）](LABS/Lab_1/logs.md)
 
 ----
 
