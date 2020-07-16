@@ -267,7 +267,7 @@ a 和 b 是完全相等的
 #### 1. 继续深入了解RISC-V::MMU
 RISC-V 的 S Mode  
 Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现代类 Unix 操作系统所需要的基于页面的虚拟内存机制是其核心。
-#### 2. start [Lab 0](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/intro.html):
+#### 2. [Lab 0](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/intro.html):
 + 了解写RUST写OS的相关综述信息
 + 部署了实验环境
 + [OpenSBI](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/part-9.html)
@@ -281,8 +281,14 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 
 ----
 <span id="16"></span>
-### [↑](#TOC)Day 13 (7.16)    
+### [↑](#TOC)Day 13 (7.16)   
 
+#### 1. [Lab 1 中断](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-1/guide/part-2.html):
+  + 
+  + 
+  + 
+
+#### ... [Lab 1记录](LABS/Lab_1/logs.md)
 
 ----
 
