@@ -21,8 +21,9 @@ unsafe fn dealloc(&self, ptr: *mut u8, layout: Layout);
 
 
 #### 伙伴系统（Buddy System）
-##### 开辟8MB的堆 (os/src/memory/config.rs)
+##### 开辟8MB的堆 (os/src/memory/```config.rs``` & ```heap.rs``` )
 ```rust
 /// 操作系统动态分配内存所用的堆大小（8M）
 pub const KERNEL_HEAP_SIZE: usize = 0x80_0000;
+static mut HEAP_SPACE: [u8; KERNEL_HEAP_SIZE] = [0; KERNEL_HEAP_SIZE];
 ```
