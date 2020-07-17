@@ -162,7 +162,7 @@ fn sbi_call(which: usize, arg0: usize, arg1: usize, arg2: usize) -> usize {
     ret
 }
 ```
-
+<span id="gdb"></span>
 > "OS"运行后用GDB调试可见Timer有效，可正常的实现sysTick功能
 ![](pics/10.png)
 ![](pics/11.png)
@@ -173,7 +173,7 @@ fn sbi_call(which: usize, arg0: usize, arg1: usize, arg2: usize) -> usize {
 
 ### 安装 riscv64-unknown-elf-gdb
 
-<span id="gdb"></span>
+
 
 GDB源代码下载地址：
 https://mirrors.tuna.tsinghua.edu.cn/gnu/gdb/?C=M&O=D
