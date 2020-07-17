@@ -274,7 +274,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 > Lab 0 中所用到的许多知识点和嵌入式系统设计有相通之处，比如bootloader/汇编启动文件/链接脚本/中断异常处理函数handler等的编写...     
 > 但是rust更方便地提供了交叉编译工具链的部署，不再需要从源代码编译得到gun-toochains以及llvm-tools了，十分快捷。
 
-#### ... [Lab 0实验记录](LABS/Lab_0/logs.md)
+#### ... [Lab 0实验记录](LABS/Lab_0/README.md)
 
 
 
@@ -283,23 +283,34 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 <span id="16"></span>
 ### [↑](#TOC)Day 13 (7.16)   
 
-#### 1. [Lab 1 中断](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-1/guide/part-2.html):
+#### 1. [Lab 1 中断和SysTick的实现](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-1/guide/part-2.html):
 #### 2. 了解更多Rcore相关背景：
   + [半个世纪过去了，是时候用Rust重写操作系统了吗？（CC字幕）](https://www.bilibili.com/video/av44834267?from=search&seid=4162693380754135939)
   + [陈嘉杰同学介绍 rCore v0.2.0 实现历程和进展, 2019](https://tuna.moe/event/2019/rcore-os/)
-  + 
-  + 
+  + ***...***
 
-#### ... [Lab 1实验记录（async）](LABS/Lab_1/logs.md)
+> 由于Lab_0中已经禁止使用了STD标准库，所以现在Lab_1中的println！暂时无法使用；
+> 因此我在Lab_1中注释掉了所有需要STD标准库的程序调用，而是改用**GDB**来跟踪调试“OS”的运行状况，以及查看变量的数值变化。
+
+#### ... [Lab 1实验记录 ](LABS/Lab_1/README.md)
 
 ----
 
 
-<span id="11"></span>
-### [↑](#TOC)Day 10/11/12/13 (7.13~16)    
-#### todo : 
-+ #### 学习RISCV为主
-+ #### 尝试着开始做LAB/并借助后续的实验不断练习RUST
+<span id="17"></span>
+### [↑](#TOC)Day 14 (7.17)   
+
+#### 1. [GDB调试 LAB1 中的“OS”](LABS/Lab_1/README.md#gdb)，观察中断处理情况，验证进入中断处理函数的处理步骤
+GDB手动调试有些繁琐，打算编写一个python脚本，实现gdb的自动化调试。
+（得编译获得一个**riscv64-unknown-elf-gdb-py**）
+#### 2. [LAB2 内存的分配](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/intro.html)
+
+#### ... [Lab 2实验记录（async）](LABS/Lab_2/README.md)
+
+
+
+
+
 
 
 ----
