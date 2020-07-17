@@ -302,7 +302,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 
 #### 1. [GDB调试 LAB1 中的“OS”](LABS/Lab_1/README.md#gdb)，观察中断处理情况，验证进入中断处理函数的处理步骤
 GDB手动调试有些繁琐，打算编写一个python脚本，实现gdb的自动化调试。
-（得编译获得一个**riscv64-unknown-elf-gdb-py**）
+（改用**riscv64-unknown-elf-gdb-py**）
 #### 2. [LAB2 内存的分配](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/intro.html)
 
 #### ... [Lab 2实验记录（async）](LABS/Lab_2/README.md)
