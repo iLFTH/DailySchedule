@@ -28,7 +28,20 @@ pub const KERNEL_HEAP_SIZE: usize = 0x80_0000;
 static mut HEAP_SPACE: [u8; KERNEL_HEAP_SIZE] = [0; KERNEL_HEAP_SIZE];
 ```
 
+
+### 物理内存探测
+![](pics/1.png)
+
+### 物理内存管理-物理页
+```rust
+/// 可以访问的内存区域起始地址
+pub const MEMORY_START_ADDRESS: PhysicalAddress = PhysicalAddress(0x8000_0000);
+/// 可以访问的内存区域结束地址
+pub const MEMORY_END_ADDRESS: PhysicalAddress = PhysicalAddress(0x8800_0000);
+```
+
 ---
 ## 实验题
 #### cheakout 到 checkout 到仓库中的 lab-2 分支。
 ---
+
