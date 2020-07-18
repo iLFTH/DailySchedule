@@ -1,5 +1,3 @@
-> 以下内容通过参考如下实验指导完成
-https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/part-1.html
 
 #### 内核中动态内存分配,典型的应用场景有：
 
