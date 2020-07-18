@@ -310,7 +310,7 @@ GDB手动调试有些繁琐，打算编写一个python脚本，实现gdb的自�
 + os/src/panic.rs
 
 #### 3. [LAB2 物理内存管理/内存的分配](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/intro.html)
-
+cheakout 到 checkout 到仓库中的 lab-2 分支。
 #### ... [Lab 2实验记录（async）](LABS/Lab_2/README.md)
 
 
