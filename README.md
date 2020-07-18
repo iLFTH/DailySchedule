@@ -289,7 +289,7 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
   + [陈嘉杰同学介绍 rCore v0.2.0 实现历程和进展, 2019](https://tuna.moe/event/2019/rcore-os/)
   + ***...***
 
-> 由于Lab_0中已经禁止使用了STD标准库，所以现在Lab_1中的println！暂时无法使用；
+> 由于Lab_0中已经禁止使用了STD标准库，所以现在Lab_1中的println！暂时无法使用；**(os/src/console.rs 接口封装和代码整理将在Lab2中添加)**
 > 因此我在Lab_1中注释掉了所有需要STD标准库的程序调用，而是改用**GDB**来跟踪调试“OS”的运行状况，以及查看变量的数值变化。
 
 #### ... [Lab 1实验记录 ](LABS/Lab_1/README.md)
@@ -303,7 +303,13 @@ Supervisor 模式是支持现代类 Unix 操作系统的权限模式，支持现
 #### 1. [GDB调试 LAB1 中的“OS”](LABS/Lab_1/README.md#gdb)，观察中断处理情况，验证进入中断处理函数的处理步骤
 GDB手动调试有些繁琐，打算编写一个python脚本，实现gdb的自动化调试。
 （改用**riscv64-unknown-elf-gdb-py**）
-#### 2. [LAB2 物理内存管理/内存的分配](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/intro.html)
+> 之前的实验没有用到println宏，而是在运行时用GDB调试“OS”跟踪查看程序运行的状况，已在Lab2中添加；
+#### 2. [接口封装和代码整理](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-0/guide/part-9.html)
++ os/src/console.rs
++ os/src/sbi.rs
++ os/src/panic.rs
+
+#### 3. [LAB2 物理内存管理/内存的分配](https://rcore-os.github.io/rCore-Tutorial-deploy/docs/lab-2/guide/intro.html)
 
 #### ... [Lab 2实验记录（async）](LABS/Lab_2/README.md)
 
