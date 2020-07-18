@@ -319,8 +319,11 @@ cheakout 到 checkout 到仓库中的 lab-2 分支。
 <span id="18"></span>
 ### [↑](#TOC)Day 15 (7.18)   
 
-#### 1. 详细理解 LAB2 中的代码，实验题线段树
+#### 1. 详细理解 LAB2 中的代码
+  同时学习了解线段树内存分配有关的资料（LAB2实验题相关）
 #### 2. 阅读OPENSBI的有关资料 
+  打算花几天时间在做rCore实验之余阅读OPENSBI的有关资料，
+  借此了解一下它与RISCV硬件“交互”的方式
 + https://github.com/riscv/riscv-sbi-doc/blob/master/riscv-sbi.adoc#legacy-sbi-extension-extension-ids-0x00-through-0x0f
 
 
