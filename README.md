@@ -314,6 +314,16 @@ cheakout 到 checkout 到仓库中的 lab-2 分支。
 #### ... [Lab 2实验记录（async）](LABS/Lab_2/README.md)
 
 
+---
+
+<span id="18"></span>
+### [↑](#TOC)Day 15 (7.18)   
+
+#### 1. 仔细理解 LAB2 中的代码
+#### 2. 阅读OPENSBI的有关资料 
++ https://github.com/riscv/riscv-sbi-doc/blob/master/riscv-sbi.adoc#legacy-sbi-extension-extension-ids-0x00-through-0x0f
+
+
 
 
 
