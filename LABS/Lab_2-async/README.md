@@ -38,6 +38,10 @@ pub const MEMORY_START_ADDRESS: PhysicalAddress = PhysicalAddress(0x8000_0000);
 pub const MEMORY_END_ADDRESS: PhysicalAddress = PhysicalAddress(0x8800_0000);
 ```
 
+
+
+
+
 ---
 ## 实验题
 #### cheakout 到 checkout 到仓库中的 lab-2 分支。

@@ -326,6 +326,16 @@ cheakout 到 checkout 到仓库中的 lab-2 分支。
   借此了解一下它与RISCV硬件“交互”的方式
 + https://github.com/riscv/riscv-sbi-doc/blob/master/riscv-sbi.adoc#legacy-sbi-extension-extension-ids-0x00-through-0x0f
 
+<span id="19"></span>
+### [↑](#TOC)Day 16 (7.19)   
+
+#### 1. 第二次线上交流
++ David Patterson：计算机体系结构新黄金时代：历史、挑战和机遇
+#### 2. 了解Lab 3的内容
+#### 3. 阅读OPENSBI的有关资料 
+
+
+
 
 
 
