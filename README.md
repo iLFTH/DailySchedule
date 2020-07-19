@@ -3,7 +3,7 @@
 ## Links
 + [OS Tutorial Summer of Code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 + [Daily Schedule ++](https://github.com/rcore-os/rCore-Tutorial/issues/18)
-+ [iLFTH's Web](http://www.nuanyun.cloud)
++ [Web](http://www.nuanyun.cloud)
 <span id="TOC"></span>  
 
 ## Tags
