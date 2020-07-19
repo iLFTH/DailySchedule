@@ -319,7 +319,7 @@ cheakout 到 checkout 到仓库中的 lab-2 分支。
 <span id="18"></span>
 ### [↑](#TOC)Day 15 (7.18)   
 
-#### 1. 详细理解 LAB2 中的代码
+#### 1. 详细理解 LAB2 中的代码,algorithm/src/allocator
   同时学习了解线段树内存分配有关的资料（LAB2实验题相关）
 #### 2. 阅读OPENSBI的有关资料 
   打算花几天时间在做rCore实验之余阅读OPENSBI的有关资料，
