@@ -3,15 +3,15 @@
 ## Links
 + [OS Tutorial Summer of Code](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 + [Daily Schedule ++](https://github.com/rcore-os/rCore-Tutorial/issues/18)
-+ [Web](http://www.nuanyun.cloud)
+<!-- + [Web](http://www.nuanyun.cloud) -->
 <span id="TOC"></span>  
 
-## Tags
+<!-- ## Tags
 
 - [RISC-V](http://www.nuanyun.cloud/?tag=riscv) 
 - [Rust](http://www.nuanyun.cloud/?tag=rust)
 - [Qemu](http://www.nuanyun.cloud/?tag=qemu)
-- [LLVM](http://www.nuanyun.cloud/?tag=) 
+- [LLVM](http://www.nuanyun.cloud/?tag=)  -->
 
 ## TOC
 
