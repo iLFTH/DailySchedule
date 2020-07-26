@@ -31,6 +31,7 @@ static mut HEAP_SPACE: [u8; KERNEL_HEAP_SIZE] = [0; KERNEL_HEAP_SIZE];
 ![](pics/1.png)
 
 ### 物理内存管理-物理页
+在 QEMU 中，可以使用 -m 指定 RAM 的大小，默认是 128 MB 。因此，默认的 DRAM 物理内存地址范围就是 [0x80000000, 0x88000000)。
 ```rust
 /// 可以访问的内存区域起始地址
 pub const MEMORY_START_ADDRESS: PhysicalAddress = PhysicalAddress(0x8000_0000);
