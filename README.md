@@ -62,3 +62,16 @@ https://fuchsia.dev/fuchsia-src/reference （Zircon 官方文档）
 相关
 
 ---
+
+
+
+<span id="0"></span>
+### [↑](#TOC)Day 1 (8.4)
+Todo:
+
+#### 阅读毕业设计《zCore 操作系统内核的设计与实现》
+了解ZCore整体加载
+
+zCore启动流程：介绍
+
+---
