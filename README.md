@@ -65,40 +65,40 @@ https://fuchsia.dev/fuchsia-src/reference （Zircon 官方文档）
 
 
 
-<span id="0"></span>
+<span id="1"></span>
 ### [↑](#TOC)Day 1 (8.4)
 Todo:
 
 #### 阅读毕业设计《zCore 操作系统内核的设计与实现》
 
 
-#### 现有的zCore 文档主要打算从这些方面展开描述（以及代码索引）
+#### 现有的zCore 文档主要从这些方面展开描述（以及代码索引）
 
 1. 内核对象
-1.1. 初识内核对象 
-1.2. 对象管理器：Process 对象       <zircon-object\src\task\process.rs>  job/process/thread
-1.3. 对象传送器：Channel 对象       <zircon-object\src\ipc\channel.rs>
-2. 任务管理                         <zircon-object\src\task>
-2.1. Zircon 任务管理体系            <>
-2.2. 硬件抽象层与``异步运行时``     <kernel_hal(bare)> async 《zCore 操作系统内核的设计与实现》中有相关描述
-2.3. 线程管理：Thread 对象          <>std::thread
-2.4. 进程管理：Process 与 Job 对象  
-3. 内存管理
-3.1. Zircon 内存管理模型
-3.2. 物理内存：VMO 对象
-3.3. 虚拟内存：VMAR 对象
+1.1. 初识内核对象   
+1.2. 对象管理器：Process 对象       <zircon-object\src\task\process.rs>  job/process/thread  
+1.3. 对象传送器：Channel 对象       <zircon-object\src\ipc\channel.rs>  
+2. 任务管理                        <zircon-object\src\task>  
+2.1. Zircon 任务管理体系            <>  
+2.2. 硬件抽象层与``异步运行时``      <kernel_hal(bare)> async 《zCore 操作系统内核的设计与实现》中有相关描述  
+2.3. 线程管理：Thread 对象          <zircon-object\src\task\thread.rs>std::thread(8.4日)  
+2.4. 进程管理：Process 与 Job 对象  <zircon-object\src\task\job.rs>  <zircon-object\src\task\job_policy.rs>  
+3. 内存管理  
+3.1. Zircon 内存管理模型  
+3.2. 物理内存：VMO 对象             <zircon-object\src\vm\vmo\physical.rs>   
+3.3. 虚拟内存：VMAR 对象            <zircon-object\src\vm\vmar.rs>  
 4. 用户程序
-4.1. Zircon 用户程序
-4.2. 加载 ELF 文件
-4.3. 上下文切换
-4.4. 系统调用
+4.1. Zircon 用户程序                
+4.2. 加载 ELF 文件                  <zircon-object\src\util\elf_loader.rs>
+4.3. 上下文切换                     
+4.4. 系统调用                       <zircon-syscall\src>
 #### zCore项目整理架构
 ![](zCore\pics\1.png)
 
-#### 打算文档的编写依据如下线路编写(libOS方向)
-Linux/MacOS
-kernel-hal-unix
-kernel-hal
+#### 打算文档的编写依据如下线路编写(LibOS)
+Linux/MacOS  ->
+kernel-hal-unix -> 
+kernel-hal ->
 zircon-object/syscall/loader
 
 
@@ -125,5 +125,18 @@ BLOGOS:paper!
 tokio/async-std
 
 
+
+---
+
+
+
+
+
+
+
+<span id="1"></span>
+### [↑](#TOC)Day 1 (8.4)
+
+#### 
 
 ---
