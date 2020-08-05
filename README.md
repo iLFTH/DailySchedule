@@ -89,40 +89,40 @@ Todo:
 3.3. 虚拟内存：VMAR 对象            <zircon-object\src\vm\vmar.rs>  
 4. 用户程序
 4.1. Zircon 用户程序                
-4.2. 加载 ELF 文件                  <zircon-object\src\util\elf_loader.rs>
+4.2. 加载 ELF 文件                  <zircon-object\src\util\elf_loader.rs>  
 4.3. 上下文切换                     
 4.4. 系统调用                       <zircon-syscall\src>
 #### zCore项目整理架构
 ![](zCore\pics\1.png)
 
-#### 打算文档的编写依据如下线路编写(LibOS)
-Linux/MacOS  ->
-kernel-hal-unix -> 
-kernel-hal ->
-zircon-object/syscall/loader
+#### 个人打算文档的编写依据如下线路编写?(LibOS)  
+Linux/MacOS  ->  
+kernel-hal-unix ->   
+kernel-hal ->  
+zircon-object/syscall/loader  
 
 
 
-#### 文档其他没有被包含的内容
-+ boot相关？(了解zCore整体加载,zCore启动流程：介绍)
-+ linux-loader/busybox(zCore无关？)
-+ baremental <zCore\src\arch\x86_64\linker.ld>section之间的4K对齐描述
-#### zCore 整体设计（Fuchsia）
-[前期调研](http://os.cs.tsinghua.edu.cn/oscourse/OsTrain2019/g1)
-zCore是微内核结构
-+ zCore立项背景
-支持各种linux System Call
-+ 测试集
-功能测试: Core Tests
-BENCHMARK:  QEMU-KVM 1 CPU测试
-            cargo bench
-+ 类似make weak
-(all)user mode
-#### async
-无栈协程，协作式调度
-C++/C#/python/JS
-BLOGOS:paper!
-tokio/async-std
+#### 文档其他没有被包含的内容  
++ boot相关？(8.5放到后面写)  
++ linux-loader/busybox(8.5助教说暂时可以不用看)  
++ baremental <zCore\src\arch\x86_64\linker.ld>section之间的4K对齐描述  
+#### zCore 整体设计（Fuchsia）  
+[前期调研](http://os.cs.tsinghua.edu.cn/oscourse/OsTrain2019/g1)  
+zCore是微内核结构  
++ zCore立项背景  
+支持各种linux System Call  
++ 测试集  
+功能测试: Core Tests  
+BENCHMARK:  QEMU-KVM 1 CPU测试  
+            cargo bench  
++ 类似make weak  
+(all)user mode  
+#### async  
+无栈协程，协作式调度  
+C++/C#/python/JS  
+BLOGOS:paper!  
+tokio/async-std  
 
 
 
@@ -134,8 +134,8 @@ tokio/async-std
 
 
 
-<span id="1"></span>
-### [↑](#TOC)Day 1 (8.4)
+<span id="3"></span>
+### [↑](#TOC)Day 3 (8.5)
 
 #### 
 
