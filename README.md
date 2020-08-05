@@ -135,8 +135,9 @@ tokio/async-std
 ### [↑](#TOC)Day 3 (8.5)  
 
 #### 1. 继续整理zCore文档中各个章节和zCore源代码的对应关系
-#### 2. 文档编辑分工
+#### 2. 文档编辑分工（初步）
 #### 3. 本地zCore的实际试运行与观察
 #### 4. 建立了新的github repo:[🔗](https://github.com/Lincyaw/zcore_tutorial_developers.git)
+#### 5. 开始编辑 zCore程序(ELF加载与动态链接 相关文档
 
 ---
