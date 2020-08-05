@@ -123,8 +123,6 @@ C++/C#/python/JS
 BLOGOS:paper!  
 tokio/async-std  
 
-
-
 ---
 
 
@@ -134,8 +132,11 @@ tokio/async-std
 
 
 <span id="3"></span>
-### [↑](#TOC)Day 3 (8.5)
+### [↑](#TOC)Day 3 (8.5)  
 
-#### 
+#### 1. 继续整理zCore文档中各个章节和zCore源代码的对应关系
+#### 2. 文档编辑分工
+#### 3. 本地zCore的实际试运行与观察
+#### 4. 建立了新的github repo:[🔗](https://github.com/Lincyaw/zcore_tutorial_developers.git)
 
 ---
