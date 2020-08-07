@@ -143,29 +143,46 @@ tokio/async-std
 ---
 
 <span id="4"></span>
-### [↑](#TOC)Day 4 (8.6)  
+### [↑](#TOC)Day 4/5 (8.6-7)  
 
+[文档仓库连接](https://github.com/rcore-os/zcore_tutorial_developers/tree/master/ch04-%E7%94%A8%E6%88%B7%E7%A8%8B%E5%BA%8F)
+![file](http://www.nuanyun.cloud/wp-content/uploads/2020/08/5f2cadd2b5664.png)
 
+###  第一阶段
 
-### zCore文档编写安排
+#### 小组成员
+小组成员：荣悦同、卢睿博、张驰斌、张文龙、彭晓、方澳阳、姚宇飞
+细分：合作者为张文龙，彭晓  
 
-####  第一阶段
-小组分工实现，在理解zCore现有源程序各个模块源代码的基础上，编写解释zCore的说明书。
+#### 目标实现 
+在理解zCore现有源程序各个模块源代码的基础上，编写解释zCore的说明书。
 
+#### 任务分工
+
+- [内核对象](ch01-00-object.md)
+- [任务管理](ch02-00-task.md)
+- [内存管理](ch03-00-memory.md)
 - [用户程序](ch04-00-userspace.md)
     - [Zircon 用户程序](ch04-01-user-program.md)
-    - [加载 ELF 文件](ch04-02-load-elf.md)
+    - [zCore加载 ELF 文件的流程与方式(已经写了一部分)](ch04-02-load-elf.md)
     - [上下文切换](ch04-03-context-switch.md)
-    - [系统调用](ch04-04-syscall.md)
+    - [系统调用](ch04-04-syscall.md)  
+	
+![file](http://www.nuanyun.cloud/wp-content/uploads/2020/08/5f2caadd73ef5.png)
 
-
-
-个人负责的部分：  
-+ 用户程序ELF文件的加载流程说明  
+![file](http://www.nuanyun.cloud/wp-content/uploads/2020/08/5f2caa652bada.png)
+#### 个人负责的部分：  
++ 用户程序ELF文件的加载流程说明(可能需要结合任务管理) 
 + zricon_syscall系统调用的说明
-    + 第一步 代码内注释文档编写。  
+    + 第一步 代码内注释文档编写。(预计)
     + 第二步 外部文档编写。  
     + 第三步 用户态和内核态之间使用系统调用的流程。  
+	+ 第四步 编写syscall的测试用例代码
+	+ 第五步 绘制syscall CallGraph
+	
+> 方法一：![file](http://www.nuanyun.cloud/wp-content/uploads/2020/08/5f2cb9f437e8e.png)
+> 方法二：![file](http://www.nuanyun.cloud/wp-content/uploads/2020/08/5f2cba58455b6.png)  
+
     ```rust
     sys_bti_create
     sys_bti_pin
@@ -283,7 +300,9 @@ tokio/async-std
     sys_vmo_write
     syscall
     ```
-
-
+[fuchsia链接](fuchsiahttps://fuchsia.dev/fuchsia-src/reference/syscalls/fifo_create) 
 
 #### 第二阶段
+> 经过小组成员的合作分工，此时zCore的具体实现细节已经基本上呈现。能对系统的架构比较熟悉。
+
+
