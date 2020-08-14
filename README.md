@@ -360,6 +360,6 @@ tokio/async-std
     
 #### [Fuchsia OS 学习资料& 教程汇总](https://fuchsia.dev/fuchsia-src/reference/syscalls/interrupt_ack)
 
-#### [Fuchsia 最新源码包下载](https://mirrors.sirung.org/fuchsia/source-code/)
-+ 对比Zircon在C语言和Rust语言实现上的异同
+<!-- #### [Fuchsia 最新源码包下载](https://mirrors.sirung.org/fuchsia/source-code/)
++ 对比Zircon在C语言和Rust语言实现上的异同 -->
 ---
