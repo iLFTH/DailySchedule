@@ -301,7 +301,7 @@ tokio/async-std
     sys_vmo_write
     syscall
     ```
-[fuchsia链接](fuchsiahttps://fuchsia.dev/fuchsia-src/reference/syscalls/fifo_create) 
+[fuchsia链接](https://fuchsia.dev/fuchsia-src/reference/syscalls/fifo_create) 
 
 #### 第二阶段
 > 经过小组成员的合作分工，此时zCore的具体实现细节已经基本上呈现。能对系统的架构比较熟悉。
@@ -363,3 +363,33 @@ tokio/async-std
 <!-- #### [Fuchsia 最新源码包下载](https://mirrors.sirung.org/fuchsia/source-code/)
 + 对比Zircon在C语言和Rust语言实现上的异同 -->
 ---
+
+
++ 内存映射MMIO,PCI规范
++ 添加系统调用的单元测试中
+  
+
+
+<span id="GITHUB"></span>
+### https://github.com/rcore-os/zcore_tutorial_developers/commits/master
+
++ started added doc about ch04-User-program::vDSO_syacall
+iLifetruth authored and iLifetruth committed 3 minutes ago
+83c3922  
++ added doc about ch04-User-program::vDSO's intro
+iLifetruth authored and iLifetruth committed 36 minutes ago
+f00ad14  
++ started added doc about ch04-User-program::vDSO
+iLifetruth authored and iLifetruth committed 2 days ago
+af5a608  
++ added doc about how does ch04-User-program::run_userboot load an elf 
+iLifetruth authored and iLifetruth committed 2 days ago
+21b52a9  
++ dded doc about ch04-User-program::BOOTFS
+iLifetruth authored and iLifetruth committed 2 days ago
+46810c5  
++ added doc for ch04-User-program::userboot
+iLifetruth authored and iLifetruth committed 2 days ago
+122f3d7  
+
+
