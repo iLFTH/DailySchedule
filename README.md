@@ -374,27 +374,41 @@ tokio/async-std
 <span id="GITHUB"></span>
 ### https://github.com/rcore-os/zcore_tutorial_developers/commits/master
 
++ updated doc about the relationship between Fuchsia&Zircon
+iLifetruth authored and iLifetruth committed 42 seconds ago
+3f499a1  
+
++ updated doc about fuchisa OS
+iLifetruth authored and iLifetruth committed 37 minutes ago
+80d39e8  
+
 + added doc about ch04-User-program::How to build prebuild Zircon images
 iLifetruth authored and iLifetruth committed 2 minutes ago
 cf3cd7b  
+
 + Discribed the relationship between Fuchsia OS and Zircon kernel
 iLifetruth authored and iLifetruth committed 2 days ago
 919655a  
+
 + started added doc about ch04-User-program::vDSO_syacall
 iLifetruth authored and iLifetruth committed 3 minutes ago
 83c3922  
+
 + added doc about ch04-User-program::vDSO's intro
 iLifetruth authored and iLifetruth committed 36 minutes ago
 f00ad14  
+
 + started added doc about ch04-User-program::vDSO
 iLifetruth authored and iLifetruth committed 2 days ago
 af5a608  
+
 + added doc about how does ch04-User-program::run_userboot load an elf 
 iLifetruth authored and iLifetruth committed 2 days ago
 21b52a9  
 + dded doc about ch04-User-program::BOOTFS
 iLifetruth authored and iLifetruth committed 2 days ago
 46810c5  
+
 + added doc for ch04-User-program::userboot
 iLifetruth authored and iLifetruth committed 2 days ago
 122f3d7  
