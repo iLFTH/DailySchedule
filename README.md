@@ -373,7 +373,12 @@ tokio/async-std
 ### [↑](#TOC)Day ** 
 <span id="GITHUB"></span>
 
-### https://github.com/rcore-os/zcore_tutorial_developers/commits/master
+### https://github.com/rcore-os/zcore_tutorial_developers/commits/master 
++ Commits on Aug 28, 2020
+add help doc about 'How to generate control_flow_graph for zircon loa…  …
+iLifetruth authored and iLifetruth committed 2 minutes ago
+cbcd2ba  
+
 + add help doc about 'How to analysis zCore by callgraph'
 iLifetruth authored and iLifetruth committed 1 minute ago
 f695374
@@ -537,6 +542,30 @@ $ dot -Tsvg callgraph.dot -o callgraph.svg
 ![zCore-Syscall-部分](zCore/pics/zircon_loader-callgraph.png)
 完整的图：
 [DailySchedule/zCore/pics/zircon_loader-callgraph.svg](zCore/pics/zircon_loader-callgraph.svg)
+
+
+
+### 什么是CFG（control flow graph）
+一个CFG是表示一个方法内的程序执行流的图，图中的节点是语句（指令），边表示执行流。例如语句A执行后的下一条语句是B，则CFG中应有一条从A到B的有向边。条件语句（if-else, while-do）之后可能执行的语句不止一个，可能执行true-branch或false-branch，所以CFG上条件语句节点的后缀会有多个，表示其后可能执行的不同branches。
+
+### 获得CFG的方式
+可以套用
+[call_graph_analyzer.md](call_graph_analyzer.md)
+
+第6部以后的操作.
+只需把`-dot-callgraph `更改为`-dot-cfg`即可
+```sh
+$ llvm9/build/bin/opt -dot-callgraph zircon_loader-aee642b49f6df21b.bc
+```
+
+
+
+> 注意此时生成的所有dot图搜是隐藏的
+> 
+> 我们可以单独分析每一个函数结点内部的程序流；
+
+Zircon-loader中的一个示例如下：
+![](zCore/pics/control_flow_graph.png)
 
 
 
