@@ -535,6 +535,8 @@ $ dot -Tsvg callgraph.dot -o callgraph.svg
 1. 转化为svg图（zCore/pics/callgraph.svg）
 2. 用浏览器打开查看
 ![zCore-Syscall-部分](zCore/pics/zircon_loader-callgraph.png)
+完整的图：
+[DailySchedule/zCore/pics/zircon_loader-callgraph.svg](zCore/pics/zircon_loader-callgraph.svg)
 
 
 
