@@ -422,4 +422,39 @@ iLifetruth authored and iLifetruth committed 2 days ago
 iLifetruth authored and iLifetruth committed 2 days ago
 122f3d7  
 
+### zCore——Call graph的生成
+
+1. 生成bitcode
+rustc --crate-name zircon_syscall --edition=2018 zircon-syscall/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link,llvm-bc -C opt-level=3 -Cembed-bitcode=no -C metadata=d5577fa10de1b216 -C extra-filename=-d5577fa10de1b216 --out-dir /home/nn/Desktop/zCore/target/release/deps -L dependency=/home/nn/Desktop/zCore/target/release/deps --extern bitflags=/home/nn/Desktop/zCore/target/release/deps/libbitflags-37a18e2d7537f304.rmeta --extern futures=/home/nn/Desktop/zCore/target/release/deps/libfutures-fa2fd8b18975a102.rmeta --extern kernel_hal=/home/nn/Desktop/zCore/target/release/deps/libkernel_hal-92535ee7135e9794.rmeta --extern log=/home/nn/Desktop/zCore/target/release/deps/liblog-b79f4ccba9ad9b93.rmeta --extern numeric_enum_macro=/home/nn/Desktop/zCore/target/release/deps/libnumeric_enum_macro-321e14d6e78a9ec2.rmeta --extern spin=/home/nn/Desktop/zCore/target/release/deps/libspin-d2bbec489fe7afc6.rmeta --extern zircon_object=/home/nn/Desktop/zCore/target/release/deps/libzircon_object-30082ccb6cfd54ac.rmeta
+
+2. 安装llvm9
+3. 获得callgraph的dot图
+```json
+	Node0x23ce8c0 -> Node0x2a4c8c0;
+	Node0x23ce8c0 -> Node0x24b2bc0;
+	Node0x23cbe10 [shape=record,label="{_ZN112_$LT$alloc..collections..btree..map..IntoIter$LT$K$C$V$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hf16d85d31df664a9E}"];
+	Node0x23cbe10 -> Node0x23c9780;
+	Node0x23cbe10 -> Node0x23cece0;
+	Node0x23d4c50 [shape=record,label="{_ZN10kernel_hal4user21UserPtr$LT$u8$C$P$GT$11read_string17h2e7fb3bb56db4638E}"];
+	Node0x23d4c50 -> Node0x23ca7b0;
+	Node0x23d4c50 -> Node0x23d3820;
+	Node0x23d4c50 -> Node0x23d1650;
+	Node0x23d4c50 -> Node0x23d4eb0;
+	Node0x23d4c50 -> Node0x23d3820;
+	Node0x23d4c50 -> Node0x23cf780;
+	Node0x2728ad0 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17h7ad7e4f982c061edE}"];
+	Node0x2728b40 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17h89bbdf50176c37c0E}"];
+	Node0x2728bb0 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17h8f980db55ba0f0e5E}"];
+	Node0x2490280 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17ha2b67106364a2854E}"];
+	Node0x24902f0 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17hac3441ffed62fc96E}"];
+	Node0x2490360 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17hb396af96a8247407E}"];
+	Node0x24903d0 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17hbc847035656928d8E}"];
+	Node0x2490440 [shape=record,label="{_ZN43_$LT$T$u20$as$u20$downcast_rs..Downcast$GT$11into_any_rc17hbe5bf331812892d5E}"];
+```
+
+4. 转化为svg图（zCore/pics/callgraph.svg）
+5. 用浏览器打开查看
+![zCore-Syscall-部分](zCore/pics/callgraph.png)
+
+
 
