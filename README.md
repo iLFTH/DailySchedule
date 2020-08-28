@@ -569,3 +569,11 @@ Zircon-loader中的一个示例如下：
 
 
 
+### 一些失败的尝试：
+尝试，暂时无法使用+nightly toolchain完整编译zCore
+https://github.com/japaric/cargo-call-stack
+
+
+cargo +nightly call-stack -bin zircon-loaders 
+
+
