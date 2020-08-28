@@ -422,7 +422,7 @@ iLifetruth authored and iLifetruth committed 2 days ago
 iLifetruth authored and iLifetruth committed 2 days ago
 122f3d7  
 
-### zCore——Call graph的生成
+### zCore::zircon-loader Callgraph的生成
 
 1. 生成bitcode
 rustc --crate-name zircon_syscall --edition=2018 zircon-syscall/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link,llvm-bc -C opt-level=3 -Cembed-bitcode=no -C metadata=d5577fa10de1b216 -C extra-filename=-d5577fa10de1b216 --out-dir /home/nn/Desktop/zCore/target/release/deps -L dependency=/home/nn/Desktop/zCore/target/release/deps --extern bitflags=/home/nn/Desktop/zCore/target/release/deps/libbitflags-37a18e2d7537f304.rmeta --extern futures=/home/nn/Desktop/zCore/target/release/deps/libfutures-fa2fd8b18975a102.rmeta --extern kernel_hal=/home/nn/Desktop/zCore/target/release/deps/libkernel_hal-92535ee7135e9794.rmeta --extern log=/home/nn/Desktop/zCore/target/release/deps/liblog-b79f4ccba9ad9b93.rmeta --extern numeric_enum_macro=/home/nn/Desktop/zCore/target/release/deps/libnumeric_enum_macro-321e14d6e78a9ec2.rmeta --extern spin=/home/nn/Desktop/zCore/target/release/deps/libspin-d2bbec489fe7afc6.rmeta --extern zircon_object=/home/nn/Desktop/zCore/target/release/deps/libzircon_object-30082ccb6cfd54ac.rmeta
@@ -454,7 +454,7 @@ rustc --crate-name zircon_syscall --edition=2018 zircon-syscall/src/lib.rs --err
 
 4. 转化为svg图（zCore/pics/callgraph.svg）
 5. 用浏览器打开查看
-![zCore-Syscall-部分](zCore/pics/callgraph.png)
+![zCore-Syscall-部分](zCore/pics/zircon_loader-callgraph.png)
 
 
 
